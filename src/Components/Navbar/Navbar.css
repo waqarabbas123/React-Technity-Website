@@ -1,0 +1,252 @@
+.outer{
+  position: relative;
+
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.531);
+  color: white;
+  padding: 15px 0px;
+  position: sticky;
+  
+}
+nav .logo h2 {
+  color: aliceblue;
+  text-transform: uppercase;
+  font-family: cursive;
+  font-size: 30px;
+}
+nav .logo h2 span {
+  color: orangered;
+  font-family: cursive;
+  font-size: 30px;
+}
+nav .logo p {
+  padding-left: 100px;
+  font-size: 13px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: 0.4s;
+  color: white;
+  padding: 20px 0px;
+}
+nav ul li a:hover {
+  color: orangered;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.active {
+  color: orangered;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 22px;
+  color: white;
+  transition: 0.4s;
+}
+.icon:hover {
+  color: orangered;
+  border: 2px solid orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+/* ----------popups---- */
+.popHome {
+  position: absolute;
+  background-color: #181818;
+  color: #fff;
+  border-radius: 4px;
+  border-top: 4px solid orangered;
+  left: 320px;
+  top: 70px;
+  transition: 0.5s;
+}
+.popHome ul {
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.popHome ul li {
+  list-style: none;
+  padding: 12px 12px;
+}
+.popHome ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+}
+.popHome ul li a:hover {
+  color: orangered;
+  transition: 0.4s;
+  cursor: pointer;
+}
+/* ------services */
+ .popService {
+  position: absolute;
+  background-color: #181818;
+  color: #fff;
+  border-radius: 4px;
+  border-top: 4px solid orangered;
+  left: 550px;
+  top: 70px;
+  transition: 0.5s;
+}
+.popService ul {
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.popService ul li {
+  list-style: none;
+  padding: 12px 12px;
+}
+.popService ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+}
+.popService ul li a:hover {
+  color: orangered;
+  transition: 0.4s;
+  cursor: pointer;
+}
+/* ------portfolio */
+ .popPortfolio {
+  position: absolute;
+  background-color: #181818;
+  color: #fff;
+  border-radius: 4px;
+  border-top: 4px solid orangered;
+  right:480px;
+  top: 70px;
+  transition: 0.5s;
+}
+.popPortfolio ul {
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.popPortfolio ul li {
+  list-style: none;
+  padding: 12px 12px;
+}
+.popPortfolio ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+}
+.popPortfolio ul li a:hover {
+  color: orangered;
+  transition: 0.4s;
+  cursor: pointer;
+}
+/* ------blog */
+ .popBlog {
+  position: absolute;
+  background-color: #181818;
+  color: #fff;
+  border-radius: 4px;
+  border-top: 4px solid orangered;
+  right:360px;
+  top: 70px;
+  transition: 0.5s;
+}
+.popBlog ul {
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.popBlog ul li {
+  list-style: none;
+  padding: 12px 12px;
+}
+.popBlog ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+}
+.popBlog ul li a:hover {
+  color: orangered;
+  transition: 0.4s;
+  cursor: pointer;
+}
+/* ------pages */
+ .popPage {
+  position: absolute;
+  background-color: #181818;
+  color: #fff;
+  border-radius: 4px;
+  border-top: 4px solid orangered;
+  right:230px;
+  top: 70px;
+  transition: 0.5s;
+}
+.popPage ul {
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.popPage ul li {
+  list-style: none;
+  padding: 12px 12px;
+}
+.popPage ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+}
+.popPage ul li a:hover {
+  color: orangered;
+  transition: 0.4s;
+  cursor: pointer;
+}

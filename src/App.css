@@ -1,0 +1,10 @@
+.app{
+    background-image: url(/public/new\ background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main{
+    background-color: #181818;
+}
