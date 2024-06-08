@@ -1,5 +1,64 @@
-.vedio{
-    width: 100%;
-    /* height: 100vh; */
-    padding: 60px;
+.vediomain {
+  padding-bottom: 50px;
+}
+.vedio {
+  width: 100%;
+  padding: 60px;
+  padding-top: 0px;
+  position: relative;
+}
+.vediobox {
+  /* margin-top: 50px; */
+  width: 90%;
+  height: 90vh;
+  background-image: url(/public/vedioImage.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-bottom: 30px; */
+}
+#Playbtn {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: orangered;
+  font-size: 50px;
+  background-color: aliceblue;
+  padding-left: 7px;
+  margin: auto;
+  transition: 0.8s;
+  border: 2px solid orangered;
+}
+
+#Playbtn:hover {
+  background-color: orangered;
+  color: white;
+  transition: 0.8s;
+  cursor: pointer;
+  box-shadow: 2px 2px 30px rgb(165, 165, 165);
+  border: 2px solid #fff;
+}
+.closebtn {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  top: -45px;
+  right: 60px;
+  transition: 0.4s;
+  border: 2px solid orangered;
+  padding: 3px;
+  border-radius: 4px;
+}
+.closebtn:hover {
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
 }

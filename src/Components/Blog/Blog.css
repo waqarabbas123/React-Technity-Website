@@ -1,0 +1,150 @@
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.slider {
+  height: 500px;
+  margin-left: 600px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  border-radius: 9px;
+  margin-left: 50px;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.blog {
+  padding: 80px 0px;
+  position: relative;
+  /* display: flex; */
+  z-index: 1;
+}
+.blog-content {
+  position: absolute;
+  top: 150px;
+  left: 60px;
+  background: transparent;
+}
+.blog-content h3 {
+  font-size: 18px;
+  color: #b6b6b6;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.blog-content h2 {
+  padding: 20px 0px;
+  font-size: 47px;
+  color: #cfcfcf;
+  font-weight: 600;
+  line-height: 50px;
+}
+.blog-content a {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 100;
+  color: #cfcfcf;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.blog-content a span {
+  padding-left: 5px;
+}
+.blog-content a:hover {
+  transition: 0.4s;
+  color: orangered;
+}
+.small-circle{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    z-index: -1;
+}
+.large-circle{
+    width: 170px;
+    height: 170px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 330px;
+    left: 200px;
+    z-index: -1;
+}
+.animate-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  /* background-color: #181818; */
+  font-size: 80px;
+  font-weight: bolder;
+  font-family: 'Poppins',sans-serif;
+  text-transform: capitalize;
+  animation: marquee 60s linear infinite;
+  color: #181818;
+}
+.text-container{
+  position: relative;
+  display: inline-block;
+}
+.text-front {
+  position: relative;
+  color: #181818;
+}
+
+.text-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  z-index: -1;
+  text-shadow: 2px 2px 0 orangered, -1px -1px 0 orangered, -1px 1px 0 orangered, 1px -1px 0 orangered;
+}
+
+@keyframes marquee {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}

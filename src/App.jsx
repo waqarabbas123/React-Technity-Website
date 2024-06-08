@@ -8,6 +8,7 @@ import Services from "./Components/services/Services";
 import Award from "./Components/Award/Award";
 import PortfolioSilder from "./Components/Portfolio Slider/PortfolioSilder";
 import Vediopart from "./Components/VedioPart/Vediopart";
+import Blog from "./Components/Blog/Blog";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <PortfolioSilder />
       <Award />
       <Vediopart />
+      <Blog />
     </div>
   );
 }
