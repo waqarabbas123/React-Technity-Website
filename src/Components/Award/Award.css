@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 180px 20px 70px ;
+    padding: 100px 180px 50px 70px ;
     /* border: 1px solid black; */
     position: relative;
     overflow: hidden;
@@ -12,13 +12,13 @@
 .arardContent{
     color: aliceblue;
 }
-.arardContent p{
-    color: rgb(184, 184, 184);
+.awardContent p{
+    color: orangered;
     font-size: 16px;
     font-weight: 600;
     padding-bottom: 20px;
 }
-.arardContent h2{
+.awardContent h2{
     color: #fefefe;
     font-size: 55px;
     font-weight: 600;

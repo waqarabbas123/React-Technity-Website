@@ -6,6 +6,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { FaArrowRight } from "react-icons/fa"; //----icon
+//------------last images-------
+import partner1 from '/partner_1.svg'
+import partner2 from '/partner_2.svg'
+import partner3 from '/partner_3.svg'
+import partner4 from '/partner_4.svg'
+import partner5 from '/partner_5.svg'
 
 import "./Blog.css";
 function Blog() {
@@ -66,7 +72,7 @@ function Blog() {
             <SwiperSlide>
               <img src={images} alt="" />
             </SwiperSlide>
-            
+
             <SwiperSlide>
               <img src={images} alt="" />
             </SwiperSlide>
@@ -94,7 +100,23 @@ function Blog() {
           </div>
         </div>
         {/* -----------images--------- */}
-
+        <div className="images-container pt-24">
+          <div className="boxes">
+            <img src={partner1} alt="" />
+          </div>
+          <div className="boxes">
+            <img src={partner2} alt="" />
+          </div>
+          <div className="boxes">
+            <img src={partner3} alt="" />
+          </div>
+          <div className="boxes">
+            <img src={partner4} alt="" />
+          </div>
+          <div className="boxes">
+            <img src={partner5} alt="" />
+          </div>
+        </div>
       </div>
     </>
   );

@@ -9,7 +9,7 @@ import Award from "./Components/Award/Award";
 import PortfolioSilder from "./Components/Portfolio Slider/PortfolioSilder";
 import Vediopart from "./Components/VedioPart/Vediopart";
 import Blog from "./Components/Blog/Blog";
-
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div className="main">
@@ -24,6 +24,7 @@ function App() {
       <Award />
       <Vediopart />
       <Blog />
+      <Footer />
     </div>
   );
 }

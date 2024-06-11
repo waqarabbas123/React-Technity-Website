@@ -4,7 +4,7 @@ function Award() {
   return (
     <>
       <div className="award">
-        <div className="arardContent">
+        <div className="awardContent">
           <p>Our Award</p>
           <h2>
             We get multiple <br /> awards
