@@ -1,6 +1,14 @@
 .home{
+    max-width: 100% ;
+    margin: auto;
+    background-image: url(/public/new\ background.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
     padding-bottom: 200px;
+
+    margin-top: -30px;
 }
 .home .upper{
     display: flex;

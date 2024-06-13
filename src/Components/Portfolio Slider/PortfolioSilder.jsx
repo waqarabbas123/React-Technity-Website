@@ -26,7 +26,7 @@ function PortfolioSilder() {
   };
   return (
     <>
-      <div className="slider w-[90%] mx-auto pt-20 mb-16">
+      <div className="slider w-[100%] mx-auto pt-20 mb-16">
         <p className="text-center pb-2 text-lg text-orange-600 font-semibold"> Latest Project</p>
         <h2 className="text-5xl font-semibold text-white text-center">Portfolio to explore</h2>
         <Carousel responsive={responsive} className="mt-20 mb-32">

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 // -------------icons-----
 import { AiOutlineMenu } from "react-icons/ai";
@@ -25,18 +26,18 @@ function Navbar() {
           {/* ----------------------------- */}
           <ul>
             <li>
-              <a
+              <Link
                 onMouseEnter={() => setHomeHover(true)}
                 onMouseLeave={() => setHomeHover(false)}
                 className="active "
-                href="#"
+                to="/"
               >
                 Home <FaAngleDown />
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="/">About</a>
+              <Link to="/MainAbout">About</Link>
             </li>
 
             <li>
@@ -92,13 +93,13 @@ function Navbar() {
           >
             <ul>
               <li>
-                <a href="#">
-                  <IoMdArrowDropright /> main home
-                </a>
+                <Link to="/mainhome">
+                  <IoMdArrowDropright /> Services plus
+                </Link>
               </li>
               <li>
                 <a href="#">
-                  <IoMdArrowDropright /> Digital agency
+                  <IoMdArrowDropright /> Privacy policy
                 </a>
               </li>
               <li>
@@ -165,12 +166,12 @@ function Navbar() {
             <ul>
               <li>
                 <a href="#">
-                  <IoMdArrowDropright /> Portfolio
+                  <IoMdArrowDropright /> web development
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <IoMdArrowDropright /> porfolio details
+                  <IoMdArrowDropright /> vedio editing
                 </a>
               </li>
             </ul>
@@ -222,12 +223,12 @@ function Navbar() {
               </li>
               <li>
                 <a href="#">
-                  <IoMdArrowDropright /> case study detail
+                  <IoMdArrowDropright /> our history
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <IoMdArrowDropright /> faq
+                  <IoMdArrowDropright /> our mission
                 </a>
               </li>
             </ul>

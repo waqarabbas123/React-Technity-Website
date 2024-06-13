@@ -5,7 +5,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 function Home() {
   return (
     <>
-      <div className="home">
+      <div className="home " >
         <div className="upper">
           <h2>
             Creativity In <br /> Our Blood Line
