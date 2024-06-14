@@ -1,0 +1,95 @@
+.card {
+  background: linear-gradient(45deg, #252525, #0e0d0d, #000, rgb(34, 34, 34));
+  color: #fff;
+  display: inline-block;
+  border-radius: 6px;
+  padding: 30px;
+  transition: 0.4s;
+}
+.card:hover {
+    cursor: pointer;
+  transition: all ease-in-out 0.4s;
+  background: linear-gradient(
+    75deg,
+    rgb(31, 20, 16),
+    #0e0d0d
+  );
+}
+.card h2 {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 1px solid #292828;
+  padding-bottom: 10px;
+  padding-right: 90px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.card h3 {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 600;
+  margin: 12px 12px 0px 12px;
+  /* padding-bottom: 10px; */
+  padding-right: 90px;
+  text-transform: capitalize;
+}
+.card h3 span {
+  color: orangered;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: lighter;
+  /* margin-left: -10px; */
+}
+.card p {
+  font-size: 16px;
+  color: #b9b9b9;
+  margin: 0px 12px 0px 12px;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  padding-right: 90px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #4d4d4d;
+}
+ul {
+  margin-left: 12px;
+  margin-top: 20px;
+  border-bottom: 1px solid #4d4d4d;
+}
+ul li {
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #b9b9b9;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.card ul li span {
+  border: 1px solid orangered;
+  padding: 4px;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 13px;
+  color: orangered;
+}
+.card a {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-left: 12px;
+  font-size: 18px;
+  transition: 0.4s;
+  /* justify-content: center; */
+}
+.card a span {
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: lighter;
+}
+.card a:hover {
+  color: orangered;
+  transition: 0.4s;
+}

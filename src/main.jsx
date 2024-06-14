@@ -15,9 +15,10 @@ import Blog from "./Components/Blog/Blog";
 import Footer from "./Components/Footer/Footer";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
+import MainServices from "./Pages/MainServices/MainServices.jsx";
 
 const router = createBrowserRouter([
+  //-------------section for the main about page---------
   {
     path: "/mainAbout",
     element: (
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
       </>
     ),
   },
+  // ----------section for the main home page
   {
     path: "/",
     element: (
@@ -45,10 +47,16 @@ const router = createBrowserRouter([
       </>
     ),
   },
+  //---------section for services------
   {
-    path : "/Services"
-  }
-  
+    path: "/Services",
+    element: (
+      <>
+        <Navbar />
+        <MainServices />
+      </>
+    ),
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

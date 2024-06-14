@@ -41,13 +41,13 @@ function Navbar() {
             </li>
 
             <li>
-              <a
+              <Link
                 onMouseEnter={() => setservicehover(true)}
                 onMouseLeave={() => setservicehover(false)}
-                href="#"
+                to=""
               >
                 Services <FaAngleDown />
-              </a>
+              </Link>
             </li>
 
             <li>
@@ -144,9 +144,9 @@ function Navbar() {
           >
             <ul>
               <li>
-                <a href="#">
+                <Link to="/Services">
                   <IoMdArrowDropright /> services
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#">

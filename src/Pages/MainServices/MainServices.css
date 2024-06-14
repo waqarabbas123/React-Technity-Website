@@ -1,0 +1,95 @@
+.main-service{
+    max-width: 100%;
+    background-color: #181818;
+}
+.service-home{
+    background-image: url(/public/main\ services\ bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+.service-home h2{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: cursive;
+    color: orangered;
+}
+.service-home .ser-home{
+    font-size: 17px;
+    padding-right: 7px;
+    text-transform: uppercase;
+    border-right: 1px solid orangered;
+    letter-spacing: 1px;
+    color: #afafaf;
+
+}
+.service-home .ser-servies{
+    font-size: 17px;
+    padding-left: 7px;
+    text-transform: uppercase;
+    font-weight: 400;
+    /* color: #ad4c4c; */
+}
+.serv-third{
+    max-width: 100%;
+    padding: 60px 30px;
+}
+.serv-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.serv-content .content-first h3{
+    color: orangered;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.serv-content .content-first h2{
+    font-size: 55px;
+    line-height: 50px;
+    color: #fff;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.content-btn{
+    background-color: #070707;
+    border-radius: 5px;
+}
+.content-btn .Monthly {
+    padding: 10px 20px;
+    /* background-color: orangered; */
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+    margin-right: 2px;
+}
+.content-btn .Monthly:hover{
+    background-color: #3d3d3d;
+}
+.content-btn .Yearly{
+    padding: 10px 20px;
+    /* background-color: orangered; */
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+}
+.content-btn .Yearly:hover{
+    background-color: #3d3d3d;
+}
+.service-cards{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    padding-top: 80px;
+}
