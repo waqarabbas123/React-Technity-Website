@@ -9,13 +9,14 @@ import Home from "./Components/Home/Home.jsx";
 import Fact from "./Components/fact/Fact.jsx";
 import PortfolioSilder from "./Components/Portfolio Slider/PortfolioSilder";
 import Services from "./Components/services/Services.jsx";
-import Award from "./Components/Award/Award.jsx";
-import Vediopart from "./Components/VedioPart/Vediopart";
-import Blog from "./Components/Blog/Blog";
-import Footer from "./Components/Footer/Footer";
+import Award from "./Components/Award/Award.jsx"; //award section
+import Vediopart from "./Components/VedioPart/Vediopart"; //vedio section
+import Blog from "./Components/Blog/Blog"; //blog section
+import Footer from "./Components/Footer/Footer";//footer
+import MainServices from "./Pages/MainServices/MainServices.jsx"; // services
+import ServiceDetail from "./Pages/MainServices/Servicesdetail/ServiceDetail.jsx"; //services detail
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MainServices from "./Pages/MainServices/MainServices.jsx";
 
 const router = createBrowserRouter([
   //-------------section for the main about page---------
@@ -54,6 +55,17 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <MainServices />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/servicedetail",
+    element: (
+      <>
+        <Navbar />
+        <ServiceDetail/>
+        <Footer />
       </>
     ),
   },

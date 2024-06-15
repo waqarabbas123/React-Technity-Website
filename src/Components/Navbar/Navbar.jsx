@@ -149,9 +149,9 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="/servicedetail">
                   <IoMdArrowDropright /> services details
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
