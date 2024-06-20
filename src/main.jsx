@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+//import bootsrap
+import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap CSS
+import 'bootstrap/dist/js/bootstrap.bundle.min'; // Import Bootstrap JS (includes Popper.js)
 // import App from "./App.jsx";
 import "./index.css";
 import MainAbout from "./Pages/MainAbout/MainAbout.jsx";
@@ -17,6 +20,7 @@ import MainServices from "./Pages/MainServices/MainServices.jsx"; // services
 import ServiceDetail from "./Pages/MainServices/Servicesdetail/ServiceDetail.jsx"; //services detail
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import MainContact from "./Pages/MainContact/MainContact.jsx";
 
 const router = createBrowserRouter([
   //-------------section for the main about page---------
@@ -66,6 +70,15 @@ const router = createBrowserRouter([
         <Navbar />
         <ServiceDetail/>
         <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/MainContact",
+    element: (
+      <>
+        <Navbar />
+        <MainContact />
       </>
     ),
   },

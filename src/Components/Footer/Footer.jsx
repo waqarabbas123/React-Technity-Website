@@ -81,7 +81,7 @@ function Footer() {
             <h2>Subscribe</h2>
             <div className="input-data">
               <input type="email" placeholder="Enter Your Email" />
-              <button id="sendbtn">Send /</button>
+              <button id="sendbtn"> Send </button>
             </div>
             <p>
               At vero eos et accusamus et iusto <br /> odio as part dignissimos

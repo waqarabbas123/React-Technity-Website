@@ -1,0 +1,123 @@
+* {
+    /* display: none; */
+    box-shadow: none;
+  }
+  .maincontact-page {
+    width: 100%;
+    background-color: #181818;
+  }
+  .maincontenthome {
+    width: 100%;
+    height: 80vh;
+    background-image: url(/public/about\ main\ bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .maincontenthome h2 {
+    font-size: 48px;
+    color: orangered;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: cursive;
+    padding-bottom: 12px;
+  }
+  .maincontenthome p,
+  .fristchild {
+    font-size: 16px;
+    color:orangered;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-right: 3px;
+    padding-bottom: 30px;
+  }
+  .maincontenthome p span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #e4e4e4;
+    text-transform: uppercase;
+  }
+  .getting-data{
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .getting-content h3{
+    color: gray;
+    font-size: 18px;
+    font-weight:600;
+  }
+  .getting-content h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight:600;
+    line-height: normal;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0px;
+  }
+  .getting-link{
+    padding-top: 20px;
+
+  }
+  .getting-link p{
+    padding-bottom: 23px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #bbbbbb;
+  }
+  .getting-link p span{
+    color: rgb(141, 38, 0);
+    font-size: x-large;
+    margin-right: 10px;
+  }
+  .getting-form form label{
+    font-size: 16px;
+    color: rgb(165, 164, 164);
+  }
+  .getting-form form input{
+    width: 220px;
+    height: 35px;
+    padding: 2px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-family: sans-serif;
+    outline: none;
+    padding-left: 8px;
+    border-radius: 7px;
+    transition: 0.4s;
+  }
+  .getting-form form textarea{
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.4s;
+    outline: none;
+  }
+  .getting-form form input:focus{
+    transition: 0.4s;
+    border: 2px solid orangered;
+  }
+  .getting-form form textarea:focus{
+    transition: 0.4s;
+    border: 2px solid orangered;
+  }
+  #formBtn{
+    padding: 8px 22px;
+    background-color: orangered;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  #formBtn:hover{
+    background-color: rgb(230, 90, 40);
+  }

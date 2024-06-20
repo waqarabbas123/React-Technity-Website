@@ -90,6 +90,7 @@
     display: flex;
     align-items: center;
     justify-content:center;
-    gap: 20px;
+    gap: 70px;
     padding-top: 80px;
+    padding-bottom: 30px;
 }

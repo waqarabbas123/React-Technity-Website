@@ -207,9 +207,9 @@ function Navbar() {
           >
             <ul>
               <li>
-                <a href="/">
+                <Link to="/MainContact">
                   <IoMdArrowDropright /> contact
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="/">
