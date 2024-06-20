@@ -16,6 +16,19 @@ function ServiceDetail() {
             </p>
           </div>
         </div>
+        <div className="ser-detail-second">
+          <div className="ser-detail-box1">
+            <p>UI-UX Design</p>
+            <h2>Design Working Process</h2>
+          </div>
+          <div className="ser-detail-box2">
+              <div className="fristone">
+                  
+              </div>
+              <div className="fristone"></div>
+              <div className="fristone"></div>
+          </div>
+        </div>
       </div>
     </>
   );
