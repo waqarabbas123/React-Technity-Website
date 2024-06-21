@@ -1,0 +1,75 @@
+.mainteam{
+    max-width: 100%;
+    background-color: #181818;
+}
+.mainteam-home{
+    background-image: url(/public/main\ services\ bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+.mainteam-home h2{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: cursive;
+    padding-bottom: 15px;
+    color: orangered;
+}
+.mainteam-home .team-home{
+    font-size: 17px;
+    padding-right: 7px;
+    text-transform: uppercase;
+    border-right: 1px solid orangered;
+    letter-spacing: 1px;
+    color: #afafaf;
+
+}
+.mainteam-home .team-team{
+    font-size: 17px;
+    padding-left: 7px;
+    text-transform: uppercase;
+    font-weight: 400;
+    /* color: #ad4c4c; */
+}
+
+.team-second{
+    padding: 20px 20px;
+}
+.team-second-content {
+    padding-top: 40px;
+}
+.team-second-content p{
+    margin-top: 30px;
+    text-align: center;
+    color: orangered;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.team-second-content h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    line-height: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.team-second-part2{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 2rem; */
+    padding-top: 70px;
+    align-self: center;
+    justify-content: center;
+    gap: 30px;
+}

@@ -22,6 +22,7 @@ import MainContact from "./Pages/MainContact/MainContact.jsx"; //main page conta
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Map from "./Components/Map/Map.jsx";
+import MainTeam from "./Pages/MainTeam/MainTeam.jsx";
 
 const router = createBrowserRouter([
   //-------------section for the main about page---------
@@ -83,6 +84,16 @@ const router = createBrowserRouter([
         <Navbar />
         <MainContact />
         <Map />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/Mainteam",
+    element: (
+      <>
+        <Navbar />
+        <MainTeam />
         <Footer />
       </>
     ),
