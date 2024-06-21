@@ -1,11 +1,12 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 // ----icons---
 import { FaLongArrowAltRight } from "react-icons/fa";
 function Home() {
   return (
     <>
-      <div className="home " >
+      <div className="home ">
         <div className="upper">
           <h2>
             Creativity In <br /> Our Blood Line
@@ -17,17 +18,19 @@ function Home() {
         </div>
         <div className="lowerContent">
           <h3>
-            Get a Quote <span><FaLongArrowAltRight /></span>
+            <Link to="/MainContact">
+              Get a Quote
+              <span>
+                <FaLongArrowAltRight />
+              </span>
+            </Link>
           </h3>
           <p>
             We deliver best problem solving solution for our client and <br />{" "}
             provide finest finishing product in present and upcoming future.
           </p>
-
         </div>
-        <div className="box">
-            
-        </div>
+        <div className="box"></div>
       </div>
     </>
   );

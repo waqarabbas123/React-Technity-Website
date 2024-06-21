@@ -40,7 +40,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.home .lowerContent h3{
+.home .lowerContent h3 a{
     display: flex;
     align-items: center;
     justify-content: center;

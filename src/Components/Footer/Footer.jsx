@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 import { FaArrowRight } from "react-icons/fa6"; // arrow icon
 import { FaTwitter } from "react-icons/fa"; // twitter icon
@@ -17,12 +18,12 @@ function Footer() {
             Let’s disscuse make <br />
             something cool together
           </h2>
-          <a href="#">
+          <Link to="/MainContact">
             Apply For Meeting
             <span>
               <FaArrowRight />
             </span>
-          </a>
+          </Link>
           <div class="triangle1"></div>
           <div class="triangle2"></div>
           <div class="triangle3"></div>
@@ -44,13 +45,20 @@ function Footer() {
                 <FaTwitter />
               </div>
               <div className="footer-icons">
-                <FaLinkedinIn />
+                <a
+                  href="https://www.linkedin.com/company/technity-solutions-/posts/?feedView=all"
+                  target="_blank"
+                >
+                  <FaLinkedinIn />
+                </a>
               </div>
               <div className="footer-icons">
                 <FaYoutube />
               </div>
               <div className="footer-icons">
-                <FaFacebookF />
+                <a href="https://www.facebook.com/profile.php?id=100064101459658" target="_blank">
+                  <FaFacebookF />
+                </a>
               </div>
             </div>
           </div>
@@ -59,23 +67,31 @@ function Footer() {
               <a href="#">Services</a>
             </h2>
             <p>
-              <a href="#">UI/UX design</a>
+              <a href="#">AI</a>
             </p>
             <p>
-              <a href="#">web development</a>
+              <a href="#">Web Development</a>
             </p>
             <p>
-              <a href="#">digital marketing</a>
+              <a href="#">Digital Marketing</a>
             </p>
             <p>
-              <a href="#">React Development</a>
+              <a href="#">Vedio Editing</a>
             </p>
           </div>
           <div className="second-data">
             <h2>Contact us</h2>
             <p>+92-3************</p>
             <p>technity@gmail.com</p>
-            <p>location</p>
+            <p>
+              <a
+                href="https://maps.app.goo.gl/BcmRiTar2LzQ16eZ6"
+                target="_blank"
+              >
+                Technity Solutions 1st Floor, <br /> Farman Plaza, Near DC
+                Office, <br /> Khomer Damote, Gilgit
+              </a>
+            </p>
           </div>
           <div className="last">
             <h2>Subscribe</h2>
@@ -92,7 +108,7 @@ function Footer() {
         <div className="footerlast">
           <p>Copyright © 2022 Laralink.</p>
           <p id="box">
-             <span id="frist"> Terms of Use</span>|
+            <span id="frist"> Terms of Use</span>|
             <span id="last">Privacy Policy</span>
           </p>
         </div>

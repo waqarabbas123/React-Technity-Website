@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 //import bootsrap
-import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap CSS
-import 'bootstrap/dist/js/bootstrap.bundle.min'; // Import Bootstrap JS (includes Popper.js)
+import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+import "bootstrap/dist/js/bootstrap.bundle.min"; // Import Bootstrap JS (includes Popper.js)
 // import App from "./App.jsx";
 import "./index.css";
 import MainAbout from "./Pages/MainAbout/MainAbout.jsx";
@@ -15,12 +15,13 @@ import Services from "./Components/services/Services.jsx";
 import Award from "./Components/Award/Award.jsx"; //award section
 import Vediopart from "./Components/VedioPart/Vediopart"; //vedio section
 import Blog from "./Components/Blog/Blog"; //blog section
-import Footer from "./Components/Footer/Footer";//footer
+import Footer from "./Components/Footer/Footer"; //footer
 import MainServices from "./Pages/MainServices/MainServices.jsx"; // services
 import ServiceDetail from "./Pages/MainServices/Servicesdetail/ServiceDetail.jsx"; //services detail
+import MainContact from "./Pages/MainContact/MainContact.jsx"; //main page contant page
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MainContact from "./Pages/MainContact/MainContact.jsx";
+import Map from "./Components/Map/Map.jsx";
 
 const router = createBrowserRouter([
   //-------------section for the main about page---------
@@ -68,8 +69,10 @@ const router = createBrowserRouter([
     element: (
       <>
         <Navbar />
-        <ServiceDetail/>
-        <Footer />
+        <ServiceDetail />
+        <div className="footer">
+          <Footer />
+        </div>
       </>
     ),
   },
@@ -79,6 +82,8 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <MainContact />
+        <Map />
+        <Footer />
       </>
     ),
   },

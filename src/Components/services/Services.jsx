@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css";
+import { Link } from "react-router-dom";
 // -------- import  images
 import serviceimage1 from "/service image 1.jpg";
 import serviceimage2 from "/serviceimage2.jpg";
@@ -17,12 +18,12 @@ function Services() {
           <h2>
             Services we can <br /> help you with
           </h2>
-          <a className="serviceBtn" href="#">
+          <Link className="serviceBtn" to="/Services">
             See all services
             <span>
               <FaArrowRight />
             </span>
-          </a>
+          </Link>
         </div>
 
         <div className="imageBox">
