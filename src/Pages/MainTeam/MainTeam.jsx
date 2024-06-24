@@ -1,10 +1,11 @@
 import Team from "../../Components/Team/Team";
 import "./MainTeam.css";
-import AliImg from "/background img.jfif";
+import AliImg from "/background img.jfif"; //AliImg
+import hassanImg from '/TeamImages/hassan img.avif' //HassanImg
+
 function MainTeam() {
-  const AliImges = {
-    backgroundImage: `url(${AliImg})`,
-  };
+
+  
   return (
     <>
       <div className="mainteam">
@@ -36,7 +37,7 @@ function MainTeam() {
             <Team
               teamMemberName="Ali Abbas"
               Field="php developer"
-              backgroundImage={AliImg}
+              backgroundImage={hassanImg}
             ></Team>
             {/* ----- */}
             <Team
@@ -46,7 +47,7 @@ function MainTeam() {
             ></Team>
             {/* ------ */}
             <Team
-              backgroundImage={AliImg}
+              backgroundImage={hassanImg}
               teamMemberName="Ali Abbas"
               Field="php developer"
             ></Team>
@@ -58,9 +59,9 @@ function MainTeam() {
             ></Team>
             {/* ----- */}
             <Team
-              backgroundImage={AliImg}
+              backgroundImage={hassanImg}
               teamMemberName="Ali Abbas"
-              Field="php developer"
+              Field="React developer"
             ></Team>
             {/* ---- */}
             <Team
@@ -70,9 +71,9 @@ function MainTeam() {
             ></Team>
             {/* --- */}
             <Team
-              backgroundImage={AliImg}
+              backgroundImage={hassanImg}
               teamMemberName="Ali Abbas"
-              Field="php developer"
+              Field="Web flow "
             ></Team>
           </div>
         </div>
