@@ -47,22 +47,22 @@ function MainContact() {
             <form action="">
               <div id="input" className="inline-block mb-4">
                 <label  className="pb-2" htmlFor="">FullName</label> <br />
-                <input type="text" required />
+                <input type="text" required placeholder="Enter your Name"/>
               </div>
 
               <div id="input" className="inline-block ml-10 mb-4">
                 <label  className="pb-2" htmlFor="">Email</label> <br />
-                <input type="email" required />
+                <input type="email" required  placeholder="Enter your Email"/>
               </div>
               <br />
               <div id="input" className="inline-block mb-4">
                 <label className="pb-2" htmlFor="">Prototype</label> <br />
-                <input type="text" />
+                <input type="text" placeholder="Your Type" />
               </div>
 
               <div id="input" className="inline-block ml-10">
                 <label  className="pb-2" htmlFor="">Mobile</label> <br />
-                <input type="number" />
+                <input type="text" placeholder="Phone Number"/>
               </div>
 
               <div id="input">
