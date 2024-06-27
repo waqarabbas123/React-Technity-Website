@@ -10,7 +10,8 @@ nav {
   background-color: rgba(0, 0, 0, 0.731);
   color: white;
   padding: 16px 80px;
-  background-image: url(/public/new\ background.jpeg);
+  /* background-image: url(/public/new\ background.jpeg); */
+  background-color: aqua;
   /* position: sticky; */
   /* z-index: 3; */
 }

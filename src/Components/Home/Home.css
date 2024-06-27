@@ -1,20 +1,72 @@
 .home{
     max-width: 100% ;
-    margin: auto;
+    /* margin: auto; */
     background-image: url(/public/new\ background.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
     padding-bottom: 200px;
+    position: relative;
+    /* margin-top: -30px; */
+    z-index: 3;
+    /* background:transparent; */
 
-    margin-top: -30px;
 }
+.triangleHome1 {
+    width: 10px;
+    height: 10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid rgb(196, 52, 0); /* Change color as needed */
+    rotate: 135deg;
+    position: absolute;
+    bottom: 40px;
+    left: 500px;
+  }
+  .triangleHome2 {
+    width: 10px;
+    height: 10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid rgb(196, 52, 0); /* Change color as needed */
+    rotate: 50deg;
+    position: absolute;
+    top: 220px;
+    z-index: 1;
+    left: 130px;
+  }
+  .triangleHome3 {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid rgb(196, 52, 0); /* Change color as needed */
+    rotate: 80deg;
+    position: absolute;
+    right: 200px;
+    top: 110px;
+    z-index: 0;
+  }
+  @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(-20px);
+    }
+    100% {
+      transform: translateX(35px); /* Move 20 pixels to the right */
+    }
+  }
+  .move-left-to-right {
+    display: inline-block;
+    animation: moveLeftToRight 4s ease-in-out infinite alternate;
+  }
+  
 .home .upper{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 90px 40px;
+    background: transparent;
 }
 .home .upper h2{
     font-size: 100px;
@@ -22,6 +74,7 @@
     margin-left: -480px;
     text-transform: capitalize;
     font-weight: 700;
+    z-index: 2;
 
 }
 .home .upper .social-side{
@@ -73,4 +126,25 @@
     border: 2px solid #fff;
     border-radius: 20px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.home .box .dot{
+    width: 5px ;
+    height: 5px ;
+    border-radius: 50%;
+    background-color: #fff;
+}
+@keyframes dot {
+    0% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(5px); /* Move 20 pixels to the right */
+    }
+  }
+  .dot {
+    display: inline-block;
+    animation: dot 2s ease-in-out infinite alternate;
+  }

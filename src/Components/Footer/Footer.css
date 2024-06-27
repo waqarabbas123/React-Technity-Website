@@ -44,7 +44,7 @@
   border-bottom: 20px solid rgb(196, 52, 0); /* Change color as needed */
   rotate: 135deg;
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
   left: 500px;
 }
 .triangle2 {
@@ -70,6 +70,18 @@
   right: 200px;
   top: 110px;
   z-index: -1;
+}
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(35px); /* Move 20 pixels to the right */
+  }
+}
+.move-left-to-right {
+  display: inline-block;
+  animation: moveLeftToRight 4s ease-in-out infinite alternate;
 }
 
 /* -----------footer data-------- */

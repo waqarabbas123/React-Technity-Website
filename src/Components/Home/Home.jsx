@@ -5,8 +5,11 @@ import { Link } from "react-router-dom";
 import { FaLongArrowAltRight } from "react-icons/fa";
 function Home() {
   return (
-    <>
+    <div className="OuterHome">
       <div className="home ">
+        <div class="triangleHome1 move-left-to-right"></div>
+        <div class="triangleHome2 move-left-to-right"></div>
+        <div class="triangleHome3 move-left-to-right"></div>
         <div className="upper">
           <h2>
             Creativity In <br /> Our Blood Line
@@ -30,9 +33,13 @@ function Home() {
             provide finest finishing product in present and upcoming future.
           </p>
         </div>
-        <div className="box"></div>
+        <div className="box">
+          <div className="dot">
+            
+          </div>
+        </div>
       </div>
-    </>
+    </div>
   );
 }
 

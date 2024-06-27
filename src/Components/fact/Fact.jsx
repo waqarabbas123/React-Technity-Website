@@ -2,7 +2,7 @@ import React from "react";
 import "./Fact.css";
 function Fact() {
   return (
-    <>
+    <div className="outerFact">
       <div className="fact">
         <div className="frist">
           <h2>Our Fact Fun</h2>
@@ -39,7 +39,7 @@ function Fact() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

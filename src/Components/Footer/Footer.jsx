@@ -24,9 +24,9 @@ function Footer() {
               <FaArrowRight />
             </span>
           </Link>
-          <div class="triangle1"></div>
-          <div class="triangle2"></div>
-          <div class="triangle3"></div>
+          <div class="triangle1 move-left-to-right"></div>
+          <div class="triangle2 move-left-to-right"></div>
+          <div class="triangle3 move-left-to-right"></div>
         </div>
         {/* ----------content data--------- */}
         <div className="content-data">
