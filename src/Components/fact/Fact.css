@@ -1,15 +1,14 @@
 .fact{
     width: 80%;
-    /* height: 400px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 10px;
-    background: linear-gradient( rgb(10, 10, 10),rgb(39, 39, 39));
     margin: auto;
-    margin-top: -100px;
+    margin-top: 100px;
     padding: 50px 20px;
     background-image: url(/public/new\ background.jpeg);
+    z-index: 1;
     box-shadow: 1px 1px 55px #3b3b3b;
 }
 .frist h2{

@@ -15,6 +15,7 @@ body{
 .Homemian{
   background-color: #181818;
   width: 100%;
+  /* z-index: -1; */
 }
 .footer{
   padding-top: 100px;

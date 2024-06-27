@@ -11,8 +11,8 @@ nav {
   color: white;
   padding: 16px 80px;
   /* background-image: url(/public/new\ background.jpeg); */
-  background-color: aqua;
-  /* position: sticky; */
+  background-color: black;
+  /* position: fixed; */
   /* z-index: 3; */
 }
 nav .logo h2 {
