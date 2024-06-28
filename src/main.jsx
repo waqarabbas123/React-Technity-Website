@@ -40,10 +40,12 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <>
-        <div className="Homemian">
+        <div className="nav-home ">
           <Navbar />
           <Home />
           <Fact />
+        </div>
+        <div className="Homemian">
           <Services />
           {/* <PortfolioSilder /> */}
           <Award />

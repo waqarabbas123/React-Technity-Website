@@ -13,7 +13,7 @@ nav {
   /* background-image: url(/public/new\ background.jpeg); */
   background-color: black;
   /* position: fixed; */
-  /* z-index: 3; */
+  z-index: 3;
 }
 nav .logo h2 {
   color: aliceblue;

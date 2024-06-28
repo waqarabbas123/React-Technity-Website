@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { FaLongArrowAltRight } from "react-icons/fa";
 function Home() {
   return (
-    <div className="OuterHome">
+
       <div className="home ">
         <div class="triangleHome1 move-left-to-right"></div>
         <div class="triangleHome2 move-left-to-right"></div>
@@ -39,7 +39,6 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

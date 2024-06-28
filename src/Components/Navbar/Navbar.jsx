@@ -93,21 +93,6 @@ function Navbar() {
           >
             <ul>
               <li>
-                <Link to="/mainhome">
-                  <IoMdArrowDropright /> Services plus
-                </Link>
-              </li>
-              <li>
-                <a href="#">
-                  <IoMdArrowDropright /> Privacy policy
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <IoMdArrowDropright /> merketing agency
-                </a>
-              </li>
-              <li>
                 <a href="#">
                   <IoMdArrowDropright /> freelancer agency
                 </a>

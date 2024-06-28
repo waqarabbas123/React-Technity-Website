@@ -5,11 +5,16 @@
     justify-content: space-between;
     border-radius: 10px;
     margin: auto;
-    margin-top: 100px;
+    /* margin-top: -100px; */
     padding: 50px 20px;
     background-image: url(/public/new\ background.jpeg);
     z-index: 1;
     box-shadow: 1px 1px 55px #3b3b3b;
+}
+.asdf{
+    width: 100%;
+    background-color: #181818;
+    padding: 60px 0px;
 }
 .frist h2{
     font-size: 40px;

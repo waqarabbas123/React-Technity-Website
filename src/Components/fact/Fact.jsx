@@ -3,6 +3,7 @@ import "./Fact.css";
 function Fact() {
   return (
     <>
+    <div className="asdf">
       <div className="fact">
         <div className="frist">
           <h2>Our Fact Fun</h2>
@@ -38,6 +39,7 @@ function Fact() {
             </p>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
