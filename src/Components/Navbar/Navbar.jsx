@@ -150,9 +150,9 @@ function Navbar() {
           >
             <ul>
               <li>
-                <a href="#">
+                <Link to={"/Webdevelopment"}>
                   <IoMdArrowDropright /> web development
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#">
