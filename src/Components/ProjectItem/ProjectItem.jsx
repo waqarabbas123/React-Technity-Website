@@ -6,6 +6,7 @@ function ProjectItem(props) {
   const style = {
     backgroundImage: `url(${props.backgroundImage})`,
     backgroundSize: "cover",
+    backgroundRepeat:"no-repeat",
     backgroundPosition: "center",
     width: "360px",
     height: "260px", // Adjust as necessary

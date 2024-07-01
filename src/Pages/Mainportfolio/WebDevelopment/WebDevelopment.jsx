@@ -6,6 +6,21 @@ import shokats from "/webflow img/Capture-1.jpeg";
 import techsgiving from "/webflow img/Capture-2.jpg";
 // ----------------custom images
 import allunit from "/webflow img/allunit.png";
+// --------------wordpress ----
+import Dentalart from "/wordpress/dentalart.jpeg";
+import richmenbs from "/wordpress/richmenbs.png";
+import donikah from "/wordpress/donikah.png";
+import kasten from "/wordpress/kasten.png";
+import kim from "/wordpress/kim.png";
+import kimgilllaw from "/wordpress/kim-gill-law.jpeg";
+import integratedlanguages from "/wordpress/integratedlanguages.jpg";
+import jollibeeuae from "/wordpress/jollibeeuae.jpg";
+import uominiecani from "/wordpress/uominiecani.jpg";
+import goodnews from "/wordpress/3goodnews.png";
+import goldenspike from "/wordpress/goldenspike.jpg";
+
+
+
 
 import WordPress from "../../../Components/WordPress/WordPress";
 import ProjectItem from "../../../Components/ProjectItem/ProjectItem";
@@ -180,80 +195,80 @@ const Component1 = () => {
         {/* -----------------------word press projects  */}
         {/* ------------ */}
         <ProjectItem
-          websiteName="technity.com"
+          websiteName="Dentalart.com.pk"
           projectBy="Wordpress"
-          projectlink="https://react-icons.github.io/react-icons/search/#q=arrow"
-          backgroundImage={AliImg}
+          projectlink="https://dentalart.com.pk/"
+          backgroundImage={Dentalart}
         ></ProjectItem>
         {/* ------------ */}
         <ProjectItem
-          websiteName="technity.com"
-          projectBy="Wordpress"
-          projectlink="https://react-icons.github.io/react-icons/search/#q=arrow"
-          backgroundImage={AliImg}
+          projectBy="wordpress"
+          websiteName="richmenbs.com"
+          projectlink="https://richmenbs.com/"
+          backgroundImage={richmenbs}
         ></ProjectItem>
         {/* ------------ */}
         <ProjectItem
-          websiteName="technity.com"
-          projectBy="Wordpress"
-          projectlink="https://react-icons.github.io/react-icons/search/#q=arrow"
-          backgroundImage={AliImg}
+          projectBy="wordpress"
+          websiteName="donikah.com"
+          projectlink="https://donikah.com/"
+          backgroundImage={donikah}
         ></ProjectItem>
         {/* ------------ */}
         <ProjectItem
-          websiteName="technity.com"
-          projectBy="Wordpress"
-          projectlink="https://react-icons.github.io/react-icons/search/#q=arrow"
-          backgroundImage={AliImg}
+          projectBy="wordpress"
+          websiteName="kim.technity.com.pk"
+          projectlink="https://kim.technity.com.pk/"
+          backgroundImage={kim}
         ></ProjectItem>
         {/* ------------ */}
         <ProjectItem
-          websiteName="technity.com"
-          projectBy="Wordpress"
-          projectlink="https://react-icons.github.io/react-icons/search/#q=arrow"
-          backgroundImage={AliImg}
+          projectBy="wordpress"
+          websiteName="kasten-keukens"
+          projectlink="https://kasten-keukens.nl/"
+          backgroundImage={kasten}
         ></ProjectItem>
         {/* ------------ */}
         <ProjectItem
-          websiteName="technity.com"
-          projectBy="Wordpress"
-          projectlink="https://react-icons.github.io/react-icons/search/#q=arrow"
-          backgroundImage={AliImg}
+          projectBy="wordpress"
+          websiteName="kimgilllaw.com"
+          projectlink="https://kimgilllaw.com/"
+          backgroundImage={kimgilllaw}
         ></ProjectItem>
         {/* ------------ */}
         <ProjectItem
-          websiteName="technity.com"
+          websiteName="integratedlanguages"
           projectBy="Wordpress"
-          projectlink="https://react-icons.github.io/react-icons/search/#q=arrow"
-          backgroundImage={AliImg}
+          projectlink="https://www.integratedlanguages.com/"
+          backgroundImage={integratedlanguages}
         ></ProjectItem>
         {/* ------------ */}
         <ProjectItem
-          websiteName="technity.com"
-          projectBy="Wordpress"
+          websiteName="jollibeeuae"
+          projectBy="wordpress"
           projectlink="https://react-icons.github.io/react-icons/search/#q=arrow"
-          backgroundImage={AliImg}
+          backgroundImage={jollibeeuae}
         ></ProjectItem>
         {/* ------------ */}
         <ProjectItem
-          websiteName="technity.com"
-          projectBy="Wordpress"
-          projectlink="https://react-icons.github.io/react-icons/search/#q=arrow"
-          backgroundImage={AliImg}
+          websiteName="uominiecani"
+          projectBy="wordpress"
+          projectlink="https://www.uominiecani.net/dogtraining/"
+          backgroundImage={uominiecani}
         ></ProjectItem>
         {/* ------------ */}
         <ProjectItem
-          websiteName="technity.com"
+          websiteName="3goodnews.it"
           projectBy="Wordpress"
-          projectlink="https://react-icons.github.io/react-icons/search/#q=arrow"
-          backgroundImage={AliImg}
+          projectlink="https://www.3goodnews.it/"
+          backgroundImage={goodnews}
         ></ProjectItem>
         {/* ------------ */}
         <ProjectItem
-          websiteName="technity.com"
-          projectBy="Word-press"
-          projectlink="https://react-icons.github.io/react-icons/search/#q=arrow"
-          backgroundImage={AliImg}
+          projectBy="wordpress"
+          websiteName="goldenspike.site"
+          projectlink="https://goldenspike.site/"
+          backgroundImage={goldenspike}
         ></ProjectItem>
         {/* -------------------------------web flow-------------- */}
         {/* ---------------- */}
@@ -335,7 +350,6 @@ const Component6 = () => {
   );
 };
 
-
 function WebDevelopment() {
   const [currentComponent, setCurrentComponent] = useState(<Component1 />);
   const handleClick = (component) => {
@@ -382,7 +396,6 @@ function WebDevelopment() {
                   className="menu-link"
                   onClick={() => handleClick(<Wordpress />)}
                 >
-                  {" "}
                   WordPress
                 </a>
               </li>
