@@ -2,8 +2,8 @@ import React from "react";
 import "./Services.css";
 import { Link } from "react-router-dom";
 // -------- import  images
-import serviceimage1 from "/service image 1.jpg";
-import serviceimage2 from "/serviceimage2.jpg";
+import serviceimage1 from "/service image 1.png";
+import serviceimage2 from "/service image 2.jpg";
 import serviceimage3 from "/serviceimage3.jpg";
 import serviceimage4 from "/serviceimage4.jpg";
 //------import icons
@@ -28,9 +28,9 @@ function Services() {
 
         <div className="imageBox">
           <div className="images imageOne">
-            <a href="#">
-              <img src={serviceimage1} alt="" />
-            </a>
+            <Link to="/Webdevelopment">
+              <img  src={serviceimage1} alt="" />
+            </Link>
           </div>
           <div className="images imageTwo">
             <a href="#">

@@ -5,8 +5,8 @@
   padding-left: 30px;
   padding-bottom: 100px;
   justify-content: space-around;
+  /* flex-wrap: wrap; */
 }
-
 .content p {
   padding-bottom: 20px;
   font-size: 16px;
@@ -49,11 +49,15 @@
 .images:hover {
   box-shadow: 2px 2px 70px rgba(255, 68, 0, 0.544);
   transition: 0.8s;
-  transform: scale(1.09);
+  transform: scale(1.23);
 }
 
 .images img {
   border-radius: 15px;
+  background-color: #000000c5;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .imageOne {
   position: relative;

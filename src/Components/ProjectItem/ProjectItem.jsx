@@ -28,7 +28,7 @@ function ProjectItem(props) {
       >
         {isHovered && (
           <div className="bg-black w-[100%] h-[100%] opacity-70 flex items-center justify-center rounded-xl flex-col">
-            <h3 className="text-gray-100 uppercase text-sm  pb-2">{props.projectBy}</h3>
+            <h3 className="text-zinc-100 uppercase text-sm  pb-2">{props.projectBy}</h3>
             <h2 className="text-white text-2xl font-bold uppercase font-[cursive]">{props.websiteName}</h2>
             <a href={props.projectlink} target="_blank" className="transition hover:text-orange-700 flex items-center justify-center text-lg gap-2"> Expend More< FaArrowRight /></a>
           </div>
