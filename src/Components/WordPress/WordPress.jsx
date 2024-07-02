@@ -20,6 +20,7 @@ import goldenspike from "/wordpress/goldenspike.jpg";
 function WordPress() {
   return (
     <>
+      <h2 className="capitalize text-orange-600 text-2xl text-center py-3 pb-5">Wordpress Projects</h2>
       <div className="wordpress ">
         {/* -----1---- */}
         <ProjectItem

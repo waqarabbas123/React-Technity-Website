@@ -31,7 +31,7 @@ function ServiceDetail() {
                 src="https://arino-react.vercel.app/images/icons/service_icon_2.svg"
                 alt=""
               />
-              <h2>Sketching</h2>
+              <h2>Programing</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
                 inventore quae eius commodi sint quod tempora nulla illo
@@ -43,7 +43,7 @@ function ServiceDetail() {
                 src="	https://arino-react.vercel.app/images/icons/service_icon_2.svg"
                 alt=""
               />
-              <h2>wireframing</h2>
+              <h2>CMS Development</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
                 inventore quae eius commodi sint quod tempora nulla illo
@@ -55,7 +55,7 @@ function ServiceDetail() {
                 src="	https://arino-react.vercel.app/images/icons/service_icon_3.svg"
                 alt=""
               />
-              <h2>Prototyping</h2>
+              <h2>Vedio Editing</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
                 inventore quae eius commodi sint quod tempora nulla illo

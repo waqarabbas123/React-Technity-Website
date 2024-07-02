@@ -104,6 +104,7 @@
     outline: none;
   }
   .getting-form form input:focus{
+    color: #fff;
     transition: 0.4s;
     border: 2px solid orangered;
   }

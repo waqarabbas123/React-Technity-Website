@@ -50,6 +50,9 @@ import Mangento from "../../../Components/Mangento/Mangento";
 const Component1 = () => {
   return (
     <>
+      <h2 className="capitalize text-orange-600 text-2xl text-center py-3 pb-5">
+        All Projects
+      </h2>
       <div className="all flex justify-center flex-wrap items-center gap-[30px]">
         {/* ----------------------------megento----------------------------- */}
         <ProjectItem
@@ -330,21 +333,26 @@ const Wordpress = () => {
 // -------------webflow--------
 const Component4 = () => {
   return (
-    <div className="flex items-center justify-center gap-[30px]">
-      <ProjectItem
-        websiteName="shokats-dappe-site"
-        projectBy="Web-Flow"
-        projectlink="https://shokats-dapper-site.webflow.io/"
-        backgroundImage={shokats}
-      ></ProjectItem>
-      {/* ---------------- */}
-      <ProjectItem
-        websiteName="techsgiving-site"
-        projectBy="Web-flow"
-        projectlink="https://techsgiving-59251c.webflow.io/"
-        backgroundImage={techsgiving}
-      ></ProjectItem>
-    </div>
+    <>
+      <h2 className="capitalize text-orange-600 text-2xl text-center py-3 pb-5">
+        Webflow Projects
+      </h2>
+      <div className="flex items-center justify-center gap-[30px]">
+        <ProjectItem
+          websiteName="shokats-dappe-site"
+          projectBy="Web-Flow"
+          projectlink="https://shokats-dapper-site.webflow.io/"
+          backgroundImage={shokats}
+        ></ProjectItem>
+        {/* ---------------- */}
+        <ProjectItem
+          websiteName="techsgiving-site"
+          projectBy="Web-flow"
+          projectlink="https://techsgiving-59251c.webflow.io/"
+          backgroundImage={techsgiving}
+        ></ProjectItem>
+      </div>
+    </>
   );
 };
 
@@ -352,6 +360,9 @@ const Component4 = () => {
 const Component6 = () => {
   return (
     <>
+      <h2 className="capitalize text-orange-600 text-2xl text-center py-3 pb-5">
+        custom Projects
+      </h2>
       <div className="flex items-center justify-center gap-[30px]">
         <ProjectItem
           websiteName="allunitconverter.com"
