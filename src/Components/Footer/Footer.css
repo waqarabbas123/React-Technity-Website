@@ -88,8 +88,10 @@
 .content-data {
   display: flex;
   /* align-items: center; */
-  justify-content: space-evenly;
+  justify-content:center;
   padding-top: 90px;
+  flex-wrap: wrap;
+  gap: 70px;
 }
 .first-data {
   padding-bottom: 30px;
