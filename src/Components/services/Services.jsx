@@ -33,9 +33,9 @@ function Services() {
             </Link>
           </div>
           <div className="images imageTwo">
-            <a href="#">
+            <Link to="/vedioEdit">
               <img src={serviceimage2} alt="" />
-            </a>
+            </Link>
           </div>
           <div className="images imageThree">
             <a href="#">

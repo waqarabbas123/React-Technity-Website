@@ -155,9 +155,9 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="/vedioEdit">
                   <IoMdArrowDropright /> vedio editing
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

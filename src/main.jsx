@@ -24,6 +24,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Map from "./Components/Map/Map.jsx";
 import MainTeam from "./Pages/MainTeam/MainTeam.jsx";
 import WebDevelopment from "./Pages/Mainportfolio/WebDevelopment/WebDevelopment.jsx";
+import Vedioedit from "./Pages/Mainportfolio/VedioEditing/Vedioedit.jsx";
 
 const router = createBrowserRouter([
   //-------------section for the main about page---------
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
     path: "/mainAbout",
     element: (
       <>
-        <Navbar />
+       <Navbar />
         <MainAbout />
       </>
     ),
@@ -109,6 +110,16 @@ const router = createBrowserRouter([
         <WebDevelopment />
         <Footer />
       </>
+    ),
+  },
+  {
+    path: "/vedioEdit",
+    element: (
+      <div className="VedioEditPage">
+        <Navbar />
+        <Vedioedit />
+        <Footer />
+      </div>
     ),
   },
 

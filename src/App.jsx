@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="main">
       {/* ----------home page--------- */}
-     <MainHome />
+      <MainHome />
       <Fact />
       <Services />
       <PortfolioSilder />
