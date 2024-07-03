@@ -49,7 +49,7 @@ const router = createBrowserRouter([
         </div>
         <div className="Homemian">
           <Services />
-          {/* <PortfolioSilder /> */}
+          <PortfolioSilder />
           <Award />
           <Vediopart />
           <Blog />

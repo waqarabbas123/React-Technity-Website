@@ -159,6 +159,11 @@ function Navbar() {
                   <IoMdArrowDropright /> vedio editing
                 </Link>
               </li>
+              <li>
+                <Link to="/vedioEdit">
+                  <IoMdArrowDropright /> artificial intelligence
+                </Link>
+              </li>
             </ul>
           </div>
         )}

@@ -2,7 +2,7 @@ import React from "react";
 // import './Silder1.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import image from "/new background.jpeg";
+import image from "/TeamImages/hassan img.avif";
 
 function PortfolioSilder() {
   const responsive = {
@@ -32,6 +32,9 @@ function PortfolioSilder() {
         <Carousel responsive={responsive} className="mt-20 mb-32">
           <div className="slideImage mr-3 rounded-md">
             <img className="rounded-md " src={image} alt="" />
+          </div>
+          <div className="slideImage mr-3 rounded-md">
+            <img className="rounded-md" src={image} alt="" />
           </div>
           <div className="slideImage mr-3 rounded-md">
             <img className="rounded-md" src={image} alt="" />
