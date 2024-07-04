@@ -207,19 +207,19 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="">
                   <IoMdArrowDropright /> team details
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#">
-                  <IoMdArrowDropright /> our history
+                  <IoMdArrowDropright /> our History
                 </a>
               </li>
               <li>
-                <a href="#">
+                <Link to="/OurMission">
                   <IoMdArrowDropright /> our mission
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
