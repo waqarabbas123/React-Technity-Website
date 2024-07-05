@@ -24,9 +24,9 @@ function Footer() {
               <FaArrowRight />
             </span>
           </Link>
-          <div class="triangle1 move-left-to-right"></div>
-          <div class="triangle2 move-left-to-right"></div>
-          <div class="triangle3 move-left-to-right"></div>
+          <div className="triangle1 move-left-to-right"></div>
+          <div className="triangle2 move-left-to-right"></div>
+          <div className="triangle3 move-left-to-right"></div>
         </div>
         {/* ----------content data--------- */}
         <div className="content-data">
@@ -56,7 +56,10 @@ function Footer() {
                 <FaYoutube />
               </div>
               <div className="footer-icons">
-                <a href="https://www.facebook.com/profile.php?id=100064101459658" target="_blank">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100064101459658"
+                  target="_blank"
+                >
                   <FaFacebookF />
                 </a>
               </div>

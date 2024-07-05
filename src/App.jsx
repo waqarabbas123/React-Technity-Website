@@ -10,12 +10,14 @@ import PortfolioSilder from "./Components/Portfolio Slider/PortfolioSilder";
 import Vediopart from "./Components/VedioPart/Vediopart";
 import Blog from "./Components/Blog/Blog";
 import Footer from "./Components/Footer/Footer";
-import MainHome from "./Components/MainHome/MainHome";
+// import MainHome from "./Components/MainHome/MainHome";
 function App() {
   return (
     <div className="main">
       {/* ----------home page--------- */}
-      <MainHome />
+      <Navbar />
+      <Home />
+      {/* <MainHome /> */}
       <Fact />
       <Services />
       <PortfolioSilder />

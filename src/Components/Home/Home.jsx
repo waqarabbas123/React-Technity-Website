@@ -19,7 +19,7 @@ function Home() {
             <span className="twitter">Twitter</span>
           </p>
         </div>
-        <div className="lowerContent">
+        <div className="lowerContent ">
           <h3>
             <Link to="/MainContact">
               Get a Quote

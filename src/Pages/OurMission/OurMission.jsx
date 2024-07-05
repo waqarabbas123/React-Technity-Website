@@ -1,4 +1,9 @@
 import React from "react";
+import { GrEdit } from "react-icons/gr";
+import { IoDiamondOutline } from "react-icons/io5";
+import { GoDatabase } from "react-icons/go";
+import { IoHelpBuoyOutline } from "react-icons/io5";
+
 import SecondBanner from "/3nd-Second-Banner-Final-1.png";
 import "./OurMission.css";
 function OurMission() {
@@ -11,7 +16,7 @@ function OurMission() {
         </p>
       </div>
       {/* ---------------------------- */}
-      <div className="ourmissonsecond py-8 mt-20 flex items-center justify-center gap-5 flex-wrap">
+      <div className="ourmissonsecond py-8 mt-20 flex items-center justify-center gap-24 flex-wrap">
         <div className="firstbox">
           <img className="rounded" src={SecondBanner} alt="" />
         </div>
@@ -51,6 +56,47 @@ function OurMission() {
             <div className=" w-[95%] h-[5px] rounded bg-orange-600"></div>
             <span className="float-end pt-2 text-slate-50 font-mono">95%</span>
           </div>
+        </div>
+      </div>
+      {/* ---------------- */}
+      <div className="flex items-center justify-center gap-20 px-20 py-24 flex-wrap">
+        <div className="py-7 hover:scale-105 transition">
+          <div className="text-5xl text-orange-600 pb-3">
+            <GrEdit />
+          </div>
+          <h2 className="text-white text-lg pb-2  ">Creative Design</h2>
+          <p className="text-gray-300 text-[16px]">
+            We strive for innovation even in <br /> the most common conventions.
+          </p>
+        </div>
+
+        <div className="py-7 hover:scale-105 transition">
+          <div className="text-4xl text-orange-600 pb-3">
+            <IoDiamondOutline />
+          </div>
+          <h2 className="text-white text-lg pb-2">Perfect Coding</h2>
+          <p className="text-gray-300 text-[16px]">
+            We strive for innovation even in <br /> the most common conventions.
+          </p>
+        </div>
+
+        <div className="py-7 hover:scale-105 transition">
+          <div className="text-4xl  text-orange-600 pb-3">
+            <GoDatabase />
+          </div>
+          <h2 className="text-white text-lg pb-2">Quick Response</h2>
+          <p className="text-gray-300 text-[16px]">
+            We strive for innovation even in <br /> the most common conventions.
+          </p>
+        </div>
+        <div className="py-7 hover:scale-105 transition">
+          <div className="text-4xl  text-orange-600 pb-3">
+            <IoHelpBuoyOutline />
+          </div>
+          <h2 className="text-white text-lg pb-2">Customer Support</h2>
+          <p className="text-gray-300 text-[16px]">
+            We strive for innovation even in <br /> the most common conventions.
+          </p>
         </div>
       </div>
     </>

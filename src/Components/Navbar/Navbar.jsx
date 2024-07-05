@@ -5,6 +5,7 @@ import "./Navbar.css";
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaAngleDown } from "react-icons/fa";
 import { IoMdArrowDropright } from "react-icons/io";
+import { FaTimes } from "react-icons/fa";
 
 function Navbar() {
   const [homehover, setHomeHover] = useState(false);
@@ -81,9 +82,15 @@ function Navbar() {
             </li>
           </ul>
           <div className="icon">
-            <AiOutlineMenu />
+            <div className="bar">
+              <AiOutlineMenu />
+            </div>
+            <div className="close">
+              <FaTimes />
+            </div>
           </div>
         </nav>
+
         {/* --------popups------ */}
         {homehover && (
           <div
