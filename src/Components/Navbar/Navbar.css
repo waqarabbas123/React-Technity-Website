@@ -73,9 +73,13 @@ nav ul li a:hover {
   transition: 0.4s;
   display: none;
 }
-
+.bar{
+  display: block;
+  /* transition: all ease 0.4s; */
+}
 .close{
   display: none;
+  /* transition: all ease 0.4s; */
 }
 
 .icon:hover {
@@ -92,11 +96,28 @@ nav ul li a:hover {
     position: absolute;
     background-color: rgba(2, 2, 2, 0.911);
     width: 100%;
-    top: 89px;
+    top: 88px;
     left: 0px;
+    transition: all ease 0.4s;
+    display: none;
+    padding-bottom: 20px;
+  }
+  nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+  }
+  nav ul li a{
+    padding: 20px 20px;
   }
   .icon{
     display: flex;
+  }
+  .popHome{
+    position: absolute;
+    top: 170px;
+    left: 680px;
   }
 }
 
@@ -107,7 +128,7 @@ nav ul li a:hover {
   color: #fff;
   border-radius: 4px;
   border-top: 4px solid orangered;
-  left: 320px;
+  left: 480px;
   top: 70px;
   transition: 0.5s;
 }
@@ -142,7 +163,7 @@ nav ul li a:hover {
   color: #fff;
   border-radius: 4px;
   border-top: 4px solid orangered;
-  left: 550px;
+  left: 720px;
   top: 70px;
   transition: 0.5s;
 }
@@ -177,7 +198,7 @@ nav ul li a:hover {
   color: #fff;
   border-radius: 4px;
   border-top: 4px solid orangered;
-  right:480px;
+  right:250px;
   top: 70px;
   transition: 0.5s;
 }
@@ -212,7 +233,7 @@ nav ul li a:hover {
   color: #fff;
   border-radius: 4px;
   border-top: 4px solid orangered;
-  right:360px;
+  right:180px;
   top: 70px;
   transition: 0.5s;
 }
@@ -247,7 +268,7 @@ nav ul li a:hover {
   color: #fff;
   border-radius: 4px;
   border-top: 4px solid orangered;
-  right:230px;
+  right:70px;
   top: 70px;
   transition: 0.5s;
 }

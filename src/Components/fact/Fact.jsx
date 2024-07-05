@@ -9,7 +9,7 @@ function Fact() {
           <h2>Our Fact Fun</h2>
           <p>
             Sed ut perspiciatis unde omnis iste natus error <br /> voluptatem
-            accusantium doloremque laudantium, aperiam, eaque ipsa quae ab illo
+            accusantium doloremque laudantium,  aperiam, eaque ipsa quae ab illo
             inventore veritatis.
           </p>
         </div>

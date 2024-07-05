@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 // -------------icons-----
@@ -14,6 +14,26 @@ function Navbar() {
   const [bloghover, setbloghover] = useState(false);
   const [pagehover, setpagehover] = useState(false);
 
+  const navListRef = useRef();
+  const openListRef = useRef();
+  const closeBtnRef = useRef();
+
+  const clickList = () => {
+    if (navListRef.current) {
+      navListRef.current.style.display = "block";
+      openListRef.current.style.display = "none";
+      closeBtnRef.current.style.display = "block"
+    }
+  };
+
+  const clickClose = () => {
+    if (openListRef.current) {
+      navListRef.current.style.display = "none";
+      closeBtnRef.current.style.display = "none"
+      openListRef.current.style.display = "block"
+    }
+  };
+
   return (
     <>
       <div className="outer">
@@ -25,7 +45,7 @@ function Navbar() {
             <p>Make IT</p>
           </div>
           {/* ----------------------------- */}
-          <ul>
+          <ul ref={navListRef}>
             <li>
               <Link
                 onMouseEnter={() => setHomeHover(true)}
@@ -82,10 +102,10 @@ function Navbar() {
             </li>
           </ul>
           <div className="icon">
-            <div className="bar">
+            <div className="bar" ref={openListRef} onClick={clickList}>
               <AiOutlineMenu />
             </div>
-            <div className="close">
+            <div className="close" ref={closeBtnRef} onClick={clickClose}>
               <FaTimes />
             </div>
           </div>

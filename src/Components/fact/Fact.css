@@ -1,64 +1,71 @@
-.fact{
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 10px;
-    margin: auto;
-    /* margin-top: -100px; */
-    padding: 50px 20px;
-    background-image: url(/public/new\ background.jpeg);
-    z-index: 1;
-    box-shadow: 1px 1px 55px #3b3b3b;
+.fact {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: auto;
+  /* flex-wrap: wrap; */
+  padding: 50px 20px;
+  background-image: url(/public/new\ background.jpeg);
+  z-index: 1;
+  box-shadow: 1px 1px 55px #3b3b3b;
 }
-.asdf{
-    width: 100%;
-    background-color: #181818;
-    padding: 60px 0px;
+.asdf {
+  width: 100%;
+  background-color: #181818;
+  padding: 60px 0px;
 }
-.frist h2{
-    font-size: 40px;
-    color: #fff;
-    font-weight: 400;
-    font-family: cursive;
+.frist h2 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 400;
+  font-family: cursive;
 }
-.frist p{
-    font-size: 18px;
-    color: #c4c4c4;
-    font-weight: 400;
-    padding: 10px 0px;
-    line-height: 26px;
+.frist p {
+  font-size: 18px;
+  color: #c4c4c4;
+  font-weight: 400;
+  padding: 10px 0px;
+  line-height: 26px;
 }
-.second{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-left: 20px;
+.second {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 20px;
 }
-.box1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0px;
-    padding-right: 30px;
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  padding-right: 30px;
 }
-.box1 h2{
-    font-size: 34px;
-    color: #fff;
-    font-weight: 700;
-    padding-right: 7px;
+.box1 h2 {
+  font-size: 34px;
+  color: #fff;
+  font-weight: 700;
+  padding-right: 7px;
 }
-.box1 p span{
-    display: block;
-    font-size: 22px;
-    color: orangered;
+.box1 p span {
+  display: block;
+  font-size: 22px;
+  color: orangered;
 }
 .box1 p {
-    color: #c4c4c4;
-    font-weight: 600;
-    text-transform: capitalize;
-    padding-bottom: 4px;
+  color: #c4c4c4;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-bottom: 4px;
 }
-#lastbox{
-    padding-left: 30px;
+#lastbox {
+  padding-left: 30px;
+}
+@media (max-width: 1224px) {
+  .fact {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

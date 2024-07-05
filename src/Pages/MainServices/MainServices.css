@@ -93,4 +93,5 @@
     gap: 70px;
     padding-top: 80px;
     padding-bottom: 30px;
+    flex-wrap: wrap;
 }

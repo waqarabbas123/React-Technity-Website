@@ -59,7 +59,7 @@
 }
 
 .home .upper {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   padding: 90px 0px;
@@ -68,7 +68,7 @@
 .home .upper h2 {
   font-size: 100px;
   /* padding-top:10px ; */
-  margin-left: -480px;
+  margin-left: 100px;
   text-transform: capitalize;
   font-weight: 700;
   z-index: 2;
@@ -89,6 +89,9 @@
   align-items: center;
   justify-content: space-between;
   z-index: 4;
+  flex-wrap: wrap-reverse;
+  padding: 20px 0px 100px 100px;
+  gap: 30px;
 }
 .home .lowerContent h3 a {
   display: flex;
@@ -145,4 +148,16 @@
 .dot {
   display: inline-block;
   animation: dot 2s ease-in-out infinite alternate;
+}
+
+@media (max-width: 1123px){
+  .home .upper h2{
+    font-size: 50px;
+  }
+  .home .lowerContent{
+    gap: 50px;
+  }
+  .home .lowerContent h3 a{
+    float: left;
+  }
 }
