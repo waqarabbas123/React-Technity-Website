@@ -8,6 +8,7 @@
     overflow: hidden;
     flex-wrap: wrap;
     background-color: #292929;
+    z-index: 2;
 }
 
 .arardContent{
@@ -30,7 +31,6 @@
     display: grid;
     grid-template-columns: auto auto ;
     grid-template-rows: auto auto;
-    flex-wrap: wrap;
 }
 .award-year{
     color: white;
@@ -60,6 +60,24 @@
     position: absolute;
     right: -190px;
     transform: rotate(45deg);
+    z-index: 1;
+}
+
+@media (max-width:775px){
+    .award{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0px 50px 70px;
+    }
+    .sidebox{
+        display: none;
+    }
+    .boxContent{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto auto;
+    }
 }
 
 

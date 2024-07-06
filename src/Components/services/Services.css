@@ -5,7 +5,6 @@
   padding-left: 30px;
   padding-bottom: 100px;
   justify-content: space-around;
-  /* flex-wrap: wrap; */
 }
 .content p {
   padding-bottom: 20px;
@@ -45,9 +44,10 @@
   margin-right: 30px;
   border-radius: 15px;
   transition: 0.4s;
+  background: transparent;
 }
 .images:hover {
-  box-shadow: 2px 2px 70px rgba(255, 68, 0, 0.544);
+  /* box-shadow: 2px 2px 70px rgba(255, 68, 0, 0.544); */
   transition: 0.8s;
   transform: scale(1.23);
 }
@@ -74,4 +74,55 @@
 .imageFour {
   position: relative;
   bottom: 70px;
+}
+
+@media(max-width:1248px){
+  .service{
+    flex-direction: column;
+  }
+  .imageBox{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    /* padding: 0px 50px; */
+    padding-top: 30px;
+    flex-wrap: wrap;
+  }
+  .images  {
+    width: 230px;
+    height: 240px;
+  }
+  .imageOne , .imageTwo , .imageThree , .imageFour{
+    position: relative;
+    padding-top: 20px;
+    bottom: 0px;
+  }
+  .content p{
+    text-align: center;
+  }
+  .content h2{
+    text-align: center;
+  }
+  .content h3{
+    text-align: center;
+    margin-left: 70px;
+  }
+  .content{
+    padding-bottom: 40px;
+  }
+}
+@media(max-width:600px){
+  .images{
+    width: 340px;
+    height: 350px;
+  }
+}
+
+
+@media (max-width: 360px) {
+    .images {
+        width: 290px;
+        height: 300px;
+    }
 }

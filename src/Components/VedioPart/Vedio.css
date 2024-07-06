@@ -62,3 +62,9 @@
   cursor: pointer;
   transition: 0.4s;
 }
+@media (max-width:700px){
+  .vediotext{
+    font-size: 35px;
+    line-height: normal;
+  }
+}

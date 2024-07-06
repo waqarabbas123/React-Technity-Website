@@ -53,7 +53,7 @@ const router = createBrowserRouter([
           <PortfolioSilder />
           <Award />
           <Vediopart />
-          <Blog />
+          {/* <Blog /> */}
           <Footer />
         </div>
       </>

@@ -15,21 +15,21 @@ function Services() {
       <div className="service">
         <div className="content">
           <p>what can we do</p>
-          <h2>
-            Services we can <br /> help you with
-          </h2>
-          <Link className="serviceBtn" to="/Services">
-            See all services
-            <span>
-              <FaArrowRight />
-            </span>
-          </Link>
+          <h2>Services we can help you with</h2>
+          <h3>
+            <Link className="serviceBtn" to="/Services">
+              See all services
+              <span>
+                <FaArrowRight />
+              </span>
+            </Link>
+          </h3>
         </div>
 
         <div className="imageBox">
           <div className="images imageOne">
             <Link to="/Webdevelopment">
-              <img  src={serviceimage1} alt="" />
+              <img src={serviceimage1} alt="" />
             </Link>
           </div>
           <div className="images imageTwo">

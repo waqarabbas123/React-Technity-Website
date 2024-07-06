@@ -13,7 +13,7 @@ function Vediopart() {
   return (
     <>
       <div className="vediomain">
-        <p className="text-zinc-200 text-center text-[40px] font-semibold px-20 pt-16 pb-12" >
+        <p className="vediotext text-zinc-200 text-center text-[40px] font-semibold px-20 pt-16 pb-12" >
           Our agile process is ability to adapt and respond to change. Agile
           organizations view change as an opportunity, not a threat.
         </p>

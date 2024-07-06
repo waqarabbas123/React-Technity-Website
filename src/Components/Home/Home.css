@@ -5,9 +5,9 @@
   background-repeat: no-repeat;
   background-position: center;
   color: white;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   position: relative;
-  z-index: -1;
+  z-index:2;
 }
 
 .triangleHome1 {
@@ -19,6 +19,7 @@
   rotate: 135deg;
   position: absolute;
   bottom: 40px;
+  z-index: 1;
   left: 500px;
 }
 .triangleHome2 {
@@ -43,7 +44,7 @@
   position: absolute;
   right: 200px;
   top: 110px;
-  z-index: 0;
+  z-index: 1;
 }
 @keyframes moveLeftToRight {
   0% {
@@ -98,7 +99,7 @@
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  margin-left: 120px;
+  /* margin-left: 120px; */
   font-weight: 400;
   transition: 0.4s;
 }
@@ -159,5 +160,33 @@
   }
   .home .lowerContent h3 a{
     float: left;
+  }
+}
+@media (max-width: 532px){
+  .triangleHome1 , .triangleHome2 , .triangleHome3{
+    display: none;
+  }
+  .home .upper h2{
+    margin-left: 50px;
+    font-size: 38px;
+  }
+}
+@media (max-width: 360px){
+
+  .home .upper h2{
+    margin-left: 20px;
+    font-size: 38px;
+  }
+  .home .lowerContent{
+    /* display: block; */
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin: 0px;
+  }
+  .home .lowerContent  a{
+    padding-bottom: 30px;  
+  }
+  .home .lowerContent h3 a {
+    margin-left: 0;
   }
 }

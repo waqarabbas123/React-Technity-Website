@@ -1,4 +1,4 @@
-.footer{
+.footer {
   background-color: #181818;
 }
 .upperbox {
@@ -88,7 +88,7 @@
 .content-data {
   display: flex;
   /* align-items: center; */
-  justify-content:center;
+  justify-content: center;
   padding-top: 90px;
   flex-wrap: wrap;
   gap: 70px;
@@ -135,112 +135,153 @@
   color: white;
   margin-right: 13px;
   /* background-color: orangered; */
-transition: 0.4s;
+  transition: 0.4s;
 }
-.social .footer-icons:hover{
-    color: orangered;
-    border: 1px solid orangered;
-    cursor: pointer;
-    transition: 0.4s;
-    box-shadow: 1px 1px 15px #979797;
+.social .footer-icons:hover {
+  color: orangered;
+  border: 1px solid orangered;
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: 1px 1px 15px #979797;
 }
 
 .second-data {
   flex-direction: column;
 }
-.second-data h2{
-    color: orangered;
-    font-size: 23px;
-    font-weight: 500;
-    padding-bottom: 40px;
+.second-data h2 {
+  color: orangered;
+  font-size: 23px;
+  font-weight: 500;
+  padding-bottom: 40px;
 }
-.second-data p{
-    color: rgb(190, 190, 190);
-    font-size: 17px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    transition: 0.4s;
+.second-data p {
+  color: rgb(190, 190, 190);
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  transition: 0.4s;
 }
-.second-data p:hover{
-    color: orangered;
-    transition: 0.4s;
-    cursor: pointer;
+.second-data p:hover {
+  color: orangered;
+  transition: 0.4s;
+  cursor: pointer;
 }
-.last h2{
-    color: orangered;
-    font-size: 23px;
-    font-weight: 500;
-    padding-bottom: 30px;
+.last h2 {
+  color: orangered;
+  font-size: 23px;
+  font-weight: 500;
+  padding-bottom: 30px;
 }
-.last .input-data{
-    display: flex;
-    align-items: center;
-    padding-bottom: 20px;
+.last .input-data {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
 }
-.last input{
-    width: 200px;
-    height: 37px;
-    border-radius: 7px;
-    padding-left: 10px;
-    font-size: 15px;
-    color:rgb(190, 190, 190);
-    background-color: black;
-    outline: 1px solid rgb(190,190,190);
+.last input {
+  width: 200px;
+  height: 37px;
+  border-radius: 7px;
+  padding-left: 10px;
+  font-size: 15px;
+  color: rgb(190, 190, 190);
+  background-color: black;
+  outline: 1px solid rgb(190, 190, 190);
 }
-#sendbtn{
-    padding: 8px 10px;
-    border: none;
-    border-radius: 7px;
-    margin-left: 10px;
-    background-color: orangered;
-    color: #fff;
-    font-weight: 700;
+#sendbtn {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 7px;
+  margin-left: 10px;
+  background-color: orangered;
+  color: #fff;
+  font-weight: 700;
 }
-.last p{
-    color: #979797;
-    font-size: 18px;
+.last p {
+  color: #979797;
+  font-size: 18px;
 }
 
 .footerlast {
-display: flex;
-align-items: center;
-justify-content: space-between;
-margin: 0px 100px;
-padding: 30px 0px;
-border-top: 1px solid #fff;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 10%;
+  padding: 30px 0px;
+  border-top: 1px solid #fff;
 }
 
-.footerlast p:first-child{
-    font-size: 16px;
-    color: #979797;
-    font-weight: 500;
+.footerlast p:first-child {
+  font-size: 16px;
+  color: #979797;
+  font-weight: 500;
 }
-.footerlast p:last-child{
-    font-size: 16px;
-    color: #979797;
-    font-weight: 500;
+.footerlast p:last-child {
+  font-size: 16px;
+  color: #979797;
+  font-weight: 500;
 }
- #box #frist{
-    /* color: orangered; */
-    padding-right: 5px;
-    transition: 0.4s;
+#box #frist {
+  /* color: orangered; */
+  padding-right: 5px;
+  transition: 0.4s;
 }
-#box #last{
-    padding-left: 5px;
-    transition: 0.4s;
+#box #last {
+  padding-left: 5px;
+  transition: 0.4s;
+}
+#box #frist:hover {
+  color: orangered;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#box #last:hover {
+  color: orangered;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+@media (max-width: 854px) {
+  .triangle1,
+  .triangle2,
+  .triangle3 {
+    display: none;
+  }
+  .triangle1 {
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+  }
+  .triangle2 {
+    position: absolute;
+    right: 100px;
+    top: 110px;
+  }
+  .content-data {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
 
 }
-#box #frist:hover{
-    color: orangered;
-    transition: 0.4s;
-    cursor: pointer;
-}
-
-
-#box #last:hover{
-    color: orangered;
-    cursor: pointer;
-    transition: 0.4s;
-
+@media (max-width: 646px) {
+  .upperbox h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  .footerlast{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .triangle3 {
+    position: absolute;
+    right: 100px;
+    top: 110px;
+  }
+  .triangle1 {
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    z-index: -1;
+  }
 }
