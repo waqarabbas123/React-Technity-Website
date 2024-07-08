@@ -50,8 +50,8 @@ function MainAbout() {
         {/* ---------------- */}
         <div className="choose-content">
           <div className="choosefirst">
-            <div className="back-container">.......</div>
-            <div className="front-container">
+            <div className="back-container">
+              {" "}
               <img src={image} alt="" width={400} />
             </div>
           </div>
@@ -72,15 +72,14 @@ function MainAbout() {
               wide-ranging experience to <br />
               determining.
             </p>
-            <span className="  text-4xl text-orange-600 ml-3">___</span>
-
+            <span className=" underLine  text-4xl text-orange-600 ml-3">___</span>
           </div>
         </div>
         {/* -------slider------- */}
         {/* ------------footer-------------- */}
-          <div className="footerHome">
-              <Footer />
-          </div>
+        <div className="footerHome">
+          <Footer />
+        </div>
       </div>
     </>
   );

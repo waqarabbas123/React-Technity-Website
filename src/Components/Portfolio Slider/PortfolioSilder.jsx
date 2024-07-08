@@ -1,5 +1,5 @@
 import React from "react";
-// import './Silder1.css'
+import './Abc.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import image from "/TeamImages/hassan img.avif";

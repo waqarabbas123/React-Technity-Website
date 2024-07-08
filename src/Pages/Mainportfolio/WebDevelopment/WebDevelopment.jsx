@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./Web.css";
 import AliImg from "/background img.jfif"; //AliImg
 // ------------webflow imgs
@@ -45,6 +45,9 @@ import anotheramazing from "/mangento/anotheramazingproductusa.png";
 import WordPress from "../../../Components/WordPress/WordPress";
 import ProjectItem from "../../../Components/ProjectItem/ProjectItem";
 import Mangento from "../../../Components/Mangento/Mangento";
+
+import { FaTimes } from "react-icons/fa"; //icon of time
+import { AiOutlineMenu } from "react-icons/ai"; //icon
 
 // ----------for all the projects All---------------
 const Component1 = () => {
@@ -337,7 +340,7 @@ const Component4 = () => {
       <h2 className="capitalize text-orange-600 text-2xl text-center py-3 pb-5">
         Webflow Projects
       </h2>
-      <div className="flex items-center justify-center gap-[30px]">
+      <div className="flex items-center flex-wrap justify-center gap-[30px]">
         <ProjectItem
           websiteName="shokats-dappe-site"
           projectBy="Web-Flow"
@@ -380,6 +383,25 @@ function WebDevelopment() {
   const handleClick = (component) => {
     setCurrentComponent(component);
   };
+  const navListRef = useRef();
+  const openListRef = useRef();
+  const closeBtnRef = useRef();
+
+  const clickList = () => {
+    if (navListRef.current) {
+      navListRef.current.style.display = "flex";
+      openListRef.current.style.display = "none";
+      closeBtnRef.current.style.display = "block";
+    }
+  };
+
+  const clickClose = () => {
+    if (openListRef.current) {
+      navListRef.current.style.display = "none";
+      closeBtnRef.current.style.display = "none";
+      openListRef.current.style.display = "block";
+    }
+  };
 
   return (
     <>
@@ -398,8 +420,22 @@ function WebDevelopment() {
               Some Recent Projects
             </h2>
           </div>
-          <div className="weblink">
-            <ul className="flex items-center justify-center border-solid border-orange-700 border-b-2 pb-2 px-1">
+          <div className="weblink w-full">
+            <div className="memo flex items-center gap-32 justify-between bg-black w-full px-4">
+              <h2 className="text-orange-600">Menu</h2>
+              <div className="icon">
+                <div className="" ref={openListRef} onClick={clickList}>
+                  <AiOutlineMenu />
+                </div>
+                <div className="close" ref={closeBtnRef} onClick={clickClose}>
+                  <FaTimes />
+                </div>
+              </div>
+            </div>
+            <ul
+              ref={navListRef}
+              className="webLinklist flex items-center justify-center border-solid border-orange-700 border-b-2 pb-2 px-1"
+            >
               <li className="pr-4 text-xl ">
                 <a
                   className="menu-link active:text-orange-700"
