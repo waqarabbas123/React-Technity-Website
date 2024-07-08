@@ -33,3 +33,23 @@
     color: #e4e4e4;
     text-transform: uppercase;
   }
+  .aabb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  @media(max-width:450px){
+    .fieldpercent h2{
+      font-size: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .fieldpercent h3{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .fieldpercent .aaaa{
+      margin-left: 20px;
+    }
+  }

@@ -50,17 +50,18 @@ function MainContact() {
                 <input type="text" required placeholder="Enter your Name"/>
               </div>
 
-              <div id="input" className="inline-block ml-10 mb-4">
+              <div id="input" className="email inline-block ml-10 mb-4">
                 <label  className="pb-2" htmlFor="">Email</label> <br />
                 <input type="email" required  placeholder="Enter your Email"/>
               </div>
+
               <br />
               <div id="input" className="inline-block mb-4">
                 <label className="pb-2" htmlFor="">Prototype</label> <br />
                 <input type="text" placeholder="Your Type" />
               </div>
 
-              <div id="input" className="inline-block ml-10">
+              <div id="input" className="phoneNmbr inline-block ml-10 ">
                 <label  className="pb-2" htmlFor="">Mobile</label> <br />
                 <input type="text" placeholder="Phone Number"/>
               </div>
@@ -68,13 +69,14 @@ function MainContact() {
               <div id="input">
                 <label  className="pb-2" htmlFor="message">FullName</label> <br />
                 <textarea
-                  className="h-44 bg-transparent pt-2 pl-4 pb-2 pr-4"
+                  className="textArea h-44 w-[90%] bg-transparent pt-2 pl-4 pb-2 pr-4"
                   name="message"
                   id="message"
-                  cols={65}
+                  // cols={65}
                   placeholder="Enter some message"
                 ></textarea>
               </div>
+
               <button id="formBtn">Submit </button>
             </form>
           </div>

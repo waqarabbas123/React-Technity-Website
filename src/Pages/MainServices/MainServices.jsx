@@ -31,6 +31,7 @@ function MainServices() {
                 pricing for client
               </h2>
             </div>
+            
             <div className="content-btn">
               <button
                 className="Monthly"

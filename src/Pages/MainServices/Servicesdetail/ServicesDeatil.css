@@ -98,3 +98,44 @@
     color: orangered;
     transition: 0.4s;
 }
+@media(max-width:900px){
+    .ser-detail-box2{
+        flex-direction: column;
+        gap: 70px;
+    }
+}
+@media(max-width:1190px){
+    .ser-detail-third{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+@media(max-width:690px){
+    .ser-detail-third .secondone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ser-detail-third .secondone img{
+        
+        width: 70%;
+    }
+}
+@media(max-width:525px){
+    .ser-detail-third .secondone .links{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .ser-detail-third .secondone h2{
+        font-size: 30px;
+        padding-left:20px ;
+        padding-right: 20px;
+    }
+    
+    .ser-detail-box2 .fristone p{
+        width:200px;
+        padding: 0px;
+    }
+}

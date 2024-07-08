@@ -25,36 +25,47 @@ function OurMission() {
           <h2 className="text-3xl font-semibold text-white pb-4">
             UNLIMITED SKILLS FOR <br /> SUPER PROJECTS
           </h2>
-          <div className="w-[40px] - h-1 bg-emerald-500 rounded mb-10"></div>
+          <div className="aaaa w-[40px] - h-1 bg-emerald-500 rounded mb-10"></div>
+          <div className="aabb">
+            <h4 className="text-white text-lg pb-2">Vedio Editing</h4>
+            <div className="  w-[90%] h-[5px] rounded bg-gray-200 mb-4">
+              <div className=" w-[96%] h-[5px] rounded bg-orange-600"></div>
+              <span className="float-end pt-2 text-slate-50 font-mono">
+                96%
+              </span>
+            </div>
 
-          <h4 className="text-white text-lg pb-2">Vedio Editing</h4>
-          <div className="  w-[350px] h-[5px] rounded bg-gray-200 mb-4">
-            <div className=" w-[96%] h-[5px] rounded bg-orange-600"></div>
-            <span className="float-end pt-2 text-slate-50 font-mono">96%</span>
-          </div>
+            <h4 className="text-white text-lg pb-2">Mangento</h4>
+            <div className=" w-[90%] h-[5px] rounded bg-gray-200 mb-4">
+              <div className=" w-[90%] h-[5px] rounded bg-orange-600"></div>
+              <span className="float-end pt-2 text-slate-50 font-mono">
+                90%
+              </span>
+            </div>
 
-          <h4 className="text-white text-lg pb-2">Mangento</h4>
-          <div className=" w-[350px] h-[5px] rounded bg-gray-200 mb-4">
-            <div className=" w-[90%] h-[5px] rounded bg-orange-600"></div>
-            <span className="float-end pt-2 text-slate-50 font-mono">90%</span>
-          </div>
+            <h4 className="text-white text-lg pb-2">Wed Flow</h4>
+            <div className=" w-[90%] h-[5px] rounded bg-gray-200 mb-4">
+              <div className=" w-[92%] h-[5px] rounded bg-orange-600"></div>
+              <span className="float-end pt-2 text-slate-50 font-mono">
+                92%
+              </span>
+            </div>
 
-          <h4 className="text-white text-lg pb-2">Wed Flow</h4>
-          <div className=" w-[350px] h-[5px] rounded bg-gray-200 mb-4">
-            <div className=" w-[92%] h-[5px] rounded bg-orange-600"></div>
-            <span className="float-end pt-2 text-slate-50 font-mono">92%</span>
-          </div>
+            <h4 className="text-white text-lg pb-2">WordPress</h4>
+            <div className=" w-[90%] h-[5px] rounded bg-gray-200 mb-4">
+              <div className=" w-[85%] h-[5px] rounded bg-orange-600 "></div>
+              <span className="float-end pt-2 text-slate-50 font-mono">
+                85%
+              </span>
+            </div>
 
-          <h4 className="text-white text-lg pb-2">WordPress</h4>
-          <div className=" w-[350px] h-[5px] rounded bg-gray-200 mb-4">
-            <div className=" w-[85%] h-[5px] rounded bg-orange-600 "></div>
-            <span className="float-end pt-2 text-slate-50 font-mono">85%</span>
-          </div>
-
-          <h4 className="text-white text-lg pb-2">Custom</h4>
-          <div className=" w-[350px] h-[5px] rounded bg-gray-200">
-            <div className=" w-[95%] h-[5px] rounded bg-orange-600"></div>
-            <span className="float-end pt-2 text-slate-50 font-mono">95%</span>
+            <h4 className="text-white text-lg pb-2">Custom</h4>
+            <div className=" w-[90%] h-[5px] rounded bg-gray-200">
+              <div className=" w-[95%] h-[5px] rounded bg-orange-600"></div>
+              <span className="float-end pt-2 text-slate-50 font-mono">
+                95%
+              </span>
+            </div>
           </div>
         </div>
       </div>

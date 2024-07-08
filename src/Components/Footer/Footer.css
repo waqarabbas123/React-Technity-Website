@@ -285,3 +285,17 @@
     z-index: -1;
   }
 }
+@media (max-width:360px){
+  .triangle3{
+    right: 30px;
+  }
+  .triangle2{
+    left: 30px;
+  }
+  .triangle1{
+    left: 120px;
+  }
+  .upperbox h2{
+    font-size: 30px
+  }
+}

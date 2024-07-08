@@ -126,3 +126,39 @@
     transition: 0.4s;
     margin-left: 10px;
   }
+
+  @media(max-width:1000px){
+    .getting-data{
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  @media(max-width:500px){
+    form{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+    }
+    .email{
+      margin-left: 0px;
+    }
+    .phoneNmbr{
+      margin-left: 0px;
+      margin-bottom: 30px;
+    }
+    .textArea{
+      width: 220px;
+    }
+    .getting-content{
+      padding-left: 20px;
+      padding-bottom: 30px;
+    }
+    .getting-content h2{
+      font-size: 30px;
+    }
+    .getting-content p{
+      font-size: 16px;
+    }
+  }

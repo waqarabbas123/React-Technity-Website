@@ -47,6 +47,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 50px;
+
 }
 .serv-content .content-first h3{
     color: orangered;
@@ -94,4 +95,19 @@
     padding-top: 80px;
     padding-bottom: 30px;
     flex-wrap: wrap;
+}
+
+@media(max-width:930px){
+    .serv-content .content-first h2{
+        font-size: 35px;
+    }
+}
+@media(max-width:722px){
+    .serv-content{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .content-btn .Monthly ,.content-btn .Yearly{
+        padding: 10px 15px;
+    }
 }
