@@ -234,7 +234,7 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="">
+                <Link to="/TeamDetail">
                   <IoMdArrowDropright /> team details
                 </Link>
               </li>

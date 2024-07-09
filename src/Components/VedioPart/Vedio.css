@@ -9,8 +9,8 @@
 }
 .vediobox {
   /* margin-top: 50px; */
-  width: 90%;
-  height: 90vh;
+  width: 85%;
+  height: 85vh;
   background-image: url(/public/vedioImage.avif);
   background-position: center;
   background-repeat: no-repeat;
@@ -20,6 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   /* padding-bottom: 30px; */
 }
 #Playbtn {
@@ -31,20 +32,19 @@
   border-radius: 50%;
   color: orangered;
   font-size: 50px;
-  background-color: aliceblue;
+  background-color: rgb(166, 166, 167);
   padding-left: 7px;
-  margin: auto;
   transition: 0.8s;
-  border: 2px solid orangered;
+  /* border: 2px solid orangered; */
 }
 
 #Playbtn:hover {
   background-color: orangered;
-  color: white;
+  color: rgb(141, 130, 130);
   transition: 0.8s;
   cursor: pointer;
-  box-shadow: 2px 2px 30px rgb(165, 165, 165);
-  border: 2px solid #fff;
+  box-shadow: 2px 2px 30px rgb(138, 133, 133);
+  /* border: 2px solid #fff; */
 }
 .closebtn {
   position: absolute;

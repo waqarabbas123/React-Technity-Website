@@ -19,9 +19,9 @@
   flex-direction: column;
 }
 .abouthome h2 {
-  font-size: 48px;
-  color: #fff;
-  font-weight: 600;
+  font-size: 42px;
+  color: orangered;
+  font-weight: 400;
   text-transform: capitalize;
   font-family: cursive;
   padding-bottom: 12px;

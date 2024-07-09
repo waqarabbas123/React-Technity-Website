@@ -26,6 +26,7 @@ import MainTeam from "./Pages/MainTeam/MainTeam.jsx";
 import WebDevelopment from "./Pages/Mainportfolio/WebDevelopment/WebDevelopment.jsx";
 import Vedioedit from "./Pages/Mainportfolio/VedioEditing/Vedioedit.jsx";
 import OurMission from "./Pages/OurMission/OurMission.jsx";
+import TeamDeatail from "./Pages/MainTeam/TeamDetails/TeamDetail.jsx";
 
 const router = createBrowserRouter([
   //-------------section for the main about page---------
@@ -129,6 +130,16 @@ const router = createBrowserRouter([
       <div className="OurMissionPage">
         <Navbar />
        <OurMission />
+        <Footer />
+      </div>
+    ),
+  },
+  {
+    path: "/TeamDetail",
+    element: (
+      <div className="teamdetail">
+        <Navbar />
+       <TeamDeatail />
         <Footer />
       </div>
     ),
