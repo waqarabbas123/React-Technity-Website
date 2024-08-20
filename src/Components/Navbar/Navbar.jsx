@@ -8,7 +8,6 @@ import { IoMdArrowDropright } from "react-icons/io";
 import { FaTimes } from "react-icons/fa";
 
 function Navbar() {
-  const [homehover, setHomeHover] = useState(false);
   const [servicehover, setservicehover] = useState(false);
   const [portfoliohover, setportfoliohover] = useState(false);
   const [bloghover, setbloghover] = useState(false);
@@ -22,15 +21,15 @@ function Navbar() {
     if (navListRef.current) {
       navListRef.current.style.display = "block";
       openListRef.current.style.display = "none";
-      closeBtnRef.current.style.display = "block"
+      closeBtnRef.current.style.display = "block";
     }
   };
 
   const clickClose = () => {
     if (openListRef.current) {
       navListRef.current.style.display = "none";
-      closeBtnRef.current.style.display = "none"
-      openListRef.current.style.display = "block"
+      closeBtnRef.current.style.display = "none";
+      openListRef.current.style.display = "block";
     }
   };
 
@@ -47,13 +46,8 @@ function Navbar() {
           {/* ----------------------------- */}
           <ul ref={navListRef}>
             <li>
-              <Link
-                onMouseEnter={() => setHomeHover(true)}
-                onMouseLeave={() => setHomeHover(false)}
-                className="active "
-                to="/"
-              >
-                Home <FaAngleDown />
+              <Link className="active " to="/">
+                Home
               </Link>
             </li>
 
@@ -111,42 +105,6 @@ function Navbar() {
           </div>
         </nav>
 
-        {/* --------popups------ */}
-        {homehover && (
-          <div
-            onMouseEnter={() => setHomeHover(true)}
-            onMouseLeave={() => setHomeHover(false)}
-            className="popHome"
-          >
-            <ul>
-              <li>
-                <a href="#">
-                  <IoMdArrowDropright /> freelancer agency
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <IoMdArrowDropright /> personal agency
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <IoMdArrowDropright /> creative soluiton
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <IoMdArrowDropright /> showcase Portfoio
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <IoMdArrowDropright /> vedio agency
-                </a>
-              </li>
-            </ul>
-          </div>
-        )}
         {/* ------services---- */}
         {servicehover && (
           <div
@@ -187,7 +145,12 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="/vedioEdit">
+                <Link to="/AppDevelopment">
+                  <IoMdArrowDropright /> App Development
+                </Link>
+              </li>
+              <li>
+                <Link to="/aiPage">
                   <IoMdArrowDropright /> artificial intelligence
                 </Link>
               </li>

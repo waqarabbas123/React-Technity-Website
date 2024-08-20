@@ -1,7 +1,7 @@
 import "./Mangento.css";
 import ProjectItem from "../ProjectItem/ProjectItem";
 
-import AliImg from "/background img.jfif"; //AliImg
+// import AliImg from "/background img.jfif"; //AliImg
 
 import iblack from "/mangento/iblack.png";
 import ChinChin from "/mangento/chin-chin.png";
@@ -29,7 +29,7 @@ import anotheramazing from "/mangento/anotheramazingproductusa.png";
 function Mangento() {
   return (
     <>
-      <h2 className="capitalize text-orange-600 text-2xl text-center py-3 pb-5">
+      <h2 className="capitalize text-teal-600 text-2xl text-center py-3 pb-5">
         mangento Projects
       </h2>
       <div className="flex items-center justify-center flex-wrap gap-[30px]">

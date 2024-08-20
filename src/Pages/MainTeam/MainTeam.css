@@ -21,13 +21,13 @@
     font-weight: 400;
     font-family: cursive;
     padding-bottom: 15px;
-    color: orangered;
+    color: #0e9ebc;
 }
 .mainteam-home .team-home{
     font-size: 17px;
     padding-right: 7px;
     text-transform: uppercase;
-    border-right: 1px solid orangered;
+    border-right: 1px solid #0e9ebc;
     letter-spacing: 1px;
     color: #afafaf;
 
@@ -49,7 +49,7 @@
 .team-second-content p{
     margin-top: 30px;
     text-align: center;
-    color: orangered;
+    color: #0e9ebc;
     font-size: 20px;
     text-transform: capitalize;
     font-weight: 700;
@@ -68,7 +68,7 @@
     display: flex;
     flex-wrap: wrap;
     /* padding: 2rem; */
-    padding-top: 70px;
+    padding-top: 30px;
     align-self: center;
     justify-content: center;
     gap: 30px;

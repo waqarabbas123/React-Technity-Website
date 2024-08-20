@@ -1,12 +1,17 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import "./Web.css";
-import AliImg from "/background img.jfif"; //AliImg
+
 // ------------webflow imgs
+
 import shokats from "/webflow img/Capture-1.jpeg";
 import techsgiving from "/webflow img/Capture-2.jpg";
+
 // ----------------custom images
+
 import allunit from "/webflow img/allunit.png";
+
 // --------------wordpress ----
+
 import Dentalart from "/wordpress/dentalart.jpeg";
 import richmenbs from "/wordpress/richmenbs.png";
 import donikah from "/wordpress/donikah.png";
@@ -18,7 +23,9 @@ import jollibeeuae from "/wordpress/jollibeeuae.jpg";
 import uominiecani from "/wordpress/uominiecani.jpg";
 import goodnews from "/wordpress/3goodnews.png";
 import goldenspike from "/wordpress/goldenspike.jpg";
+
 // ---------------------mangento---------
+
 import iblack from "/mangento/iblack.png";
 import ChinChin from "/mangento/chin-chin.png";
 import genesis from "/mangento/genesis.png";
@@ -53,7 +60,7 @@ import { AiOutlineMenu } from "react-icons/ai"; //icon
 const Component1 = () => {
   return (
     <>
-      <h2 className="capitalize text-orange-600 text-2xl text-center py-3 pb-5">
+      <h2 className="capitalize text-teal-600 text-2xl text-center py-3 pb-5">
         All Projects
       </h2>
       <div className="all flex justify-center flex-wrap items-center gap-[30px]">
@@ -337,7 +344,7 @@ const Wordpress = () => {
 const Component4 = () => {
   return (
     <>
-      <h2 className="capitalize text-orange-600 text-2xl text-center py-3 pb-5">
+      <h2 className="capitalize text-teal-600 text-2xl text-center py-3 pb-5">
         Webflow Projects
       </h2>
       <div className="flex items-center flex-wrap justify-center gap-[30px]">
@@ -363,7 +370,7 @@ const Component4 = () => {
 const Component6 = () => {
   return (
     <>
-      <h2 className="capitalize text-orange-600 text-2xl text-center py-3 pb-5">
+      <h2 className="capitalize text-teal-600 text-2xl text-center py-3 pb-5">
         custom Projects
       </h2>
       <div className="flex items-center justify-center gap-[30px]">
@@ -416,13 +423,13 @@ function WebDevelopment() {
         <div className="webmain flex justify-between items-center px-24 pt-28">
           <div className="webcontent">
             <h3 className="text-lg text-slate-50">Our Portfolio</h3>
-            <h2 className="text-3xl font-semibold tracking-normal text-orange-700 font-serif">
+            <h2 className="text-3xl font-semibold tracking-normal text-teal-700 font-serif">
               Some Recent Projects
             </h2>
           </div>
           <div className="weblink w-full">
             <div className="memo flex items-center gap-32 justify-between bg-black w-full px-4">
-              <h2 className="text-orange-600">Menu</h2>
+              <h2 className="text-teal-600">Menu</h2>
               <div className="icon">
                 <div className="" ref={openListRef} onClick={clickList}>
                   <AiOutlineMenu />
@@ -434,11 +441,11 @@ function WebDevelopment() {
             </div>
             <ul
               ref={navListRef}
-              className="webLinklist flex items-center justify-center border-solid border-orange-700 border-b-2 pb-2 px-1"
+              className="webLinklist flex items-center justify-center border-solid  pb-2 px-1"
             >
               <li className="pr-4 text-xl ">
                 <a
-                  className="menu-link active:text-orange-700"
+                  className="menu-link active:text-teal-700"
                   onClick={() => handleClick(<Component1 />)}
                 >
                   All
@@ -446,7 +453,7 @@ function WebDevelopment() {
               </li>
               <li className="px-4  text-xl">
                 <a
-                  className="menu-link"
+                  className="menu-link text-teal-600"
                   onClick={() => handleClick(<Component2 />)}
                 >
                   Mangento
@@ -454,7 +461,7 @@ function WebDevelopment() {
               </li>
               <li className="px-4 text-xl ">
                 <a
-                  className="menu-link"
+                  className="menu-link text-teal-600"
                   onClick={() => handleClick(<Wordpress />)}
                 >
                   WordPress
@@ -462,15 +469,15 @@ function WebDevelopment() {
               </li>
               <li className="px-4 text-xl">
                 <a
-                  className="menu-link"
+                  className="menu-link text-teal-600"
                   onClick={() => handleClick(<Component4 />)}
                 >
                   Webflow
                 </a>
               </li>
-              <li className="pl-4 text-xl">
+              <li className="pl-4 text-xl ">
                 <a
-                  className="menu-link"
+                  className="menu-link text-teal-600"
                   onClick={() => handleClick(<Component6 />)}
                 >
                   Custom

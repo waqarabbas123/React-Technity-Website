@@ -3,8 +3,33 @@ import "./MainContact.css";
 import { FaLocationDot } from "react-icons/fa6"; //location icon
 import { IoMail } from "react-icons/io5"; //mail icon
 import { BsFillTelephonePlusFill } from "react-icons/bs"; //phone icon
+// import { Result } from "postcss";
 
 function MainContact() {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "d1b9050a-d5df-4504-b554-c543621a15d9");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
   return (
     <>
       <div className="maincontact-page">
@@ -44,41 +69,68 @@ function MainContact() {
             </div>
           </div>
           <div className="getting-form">
-            <form action="">
+            <form action="" onSubmit={onSubmit}>
               <div id="input" className="inline-block mb-4">
-                <label  className="pb-2" htmlFor="">FullName</label> <br />
-                <input type="text" required placeholder="Enter your Name"/>
+                <label className="pb-2" htmlFor="fullName">
+                  FullName
+                </label>
+                <br />
+                <input
+                  type="text"
+                  required
+                  placeholder="Enter your Name"
+                  name="fullName"
+                />
               </div>
 
               <div id="input" className="email inline-block ml-10 mb-4">
-                <label  className="pb-2" htmlFor="">Email</label> <br />
-                <input type="email" required  placeholder="Enter your Email"/>
+                <label className="pb-2" htmlFor="email">
+                  Email
+                </label>
+                <br />
+                <input
+                  type="email"
+                  required
+                  placeholder="Enter your Email"
+                  name="email"
+                />
               </div>
 
               <br />
               <div id="input" className="inline-block mb-4">
-                <label className="pb-2" htmlFor="">Prototype</label> <br />
-                <input type="text" placeholder="Your Type" />
+                <label className="pb-2" htmlFor="field">
+                  Field
+                </label>
+                <br />
+                <input type="text" placeholder="Your Field" name="field" />
               </div>
 
-              <div id="input" className="phoneNmbr inline-block ml-10 ">
-                <label  className="pb-2" htmlFor="">Mobile</label> <br />
-                <input type="text" placeholder="Phone Number"/>
+              <div id="input" className="phoneNmbr inline-block ml-10">
+                <label className="pb-2" htmlFor="mobile">
+                  Mobile
+                </label>
+                <br />
+                <input type="text" placeholder="Phone Number" name="mobile" />
               </div>
 
               <div id="input">
-                <label  className="pb-2" htmlFor="message">FullName</label> <br />
+                <label className="pb-2" htmlFor="message">
+                  Message
+                </label>
+                <br />
                 <textarea
                   className="textArea h-44 w-[90%] bg-transparent pt-2 pl-4 pb-2 pr-4"
                   name="message"
                   id="message"
-                  // cols={65}
                   placeholder="Enter some message"
                 ></textarea>
               </div>
 
-              <button id="formBtn">Submit </button>
+              <button id="formBtn" className="mb-3">
+                Submit
+              </button>
             </form>
+            <span className="text-xl pl-4 text-teal-400">{result}</span>
           </div>
         </div>
       </div>

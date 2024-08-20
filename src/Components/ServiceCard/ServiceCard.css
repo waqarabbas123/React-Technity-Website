@@ -11,7 +11,7 @@
   transition: all ease-in-out 0.4s;
   background: linear-gradient(
     75deg,
-    rgb(31, 20, 16),
+    rgb(19, 34, 34),
     #0e0d0d
   );
 }
@@ -36,7 +36,7 @@
   text-transform: capitalize;
 }
 .card h3 span {
-  color: orangered;
+  color: #0e9ebc;
   font-size: 16px;
   text-transform: capitalize;
   font-weight: lighter;
@@ -68,12 +68,12 @@
   /* justify-content: center; */
 }
 .card ul li span {
-  border: 1px solid orangered;
+  border: 1px solid #0e9ebc;
   padding: 4px;
   border-radius: 50%;
   margin-right: 10px;
   font-size: 13px;
-  color: orangered;
+  color: #0e9ebc;
 }
 .card a {
   display: flex;
@@ -90,6 +90,6 @@
   font-weight: lighter;
 }
 .card a:hover {
-  color: orangered;
+  color: #0e9ebc;
   transition: 0.4s;
 }

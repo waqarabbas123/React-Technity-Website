@@ -1,6 +1,7 @@
-import React from "react";
 import "./MainAbout.css";
-import image from "/serviceimage3.jpg";
+import Teamimage from "/TeamImages/cap-1.png";
+import Companyimg from "/3nd-Second-Banner-Final-1.png";
+import serviceImg from "/serviceimage3.jpg";
 import Fact from "../../Components/fact/Fact";
 import Footer from "../../Components/Footer/Footer";
 
@@ -21,7 +22,7 @@ function MainAbout() {
             <div className="imgs firstcontent">
               <h3>about our agency</h3>
               <h2>
-                Your trusted partner <br /> for business
+                Creative agency of talented <br /> Developers & Designers
               </h2>
               <p>
                 This is the main factor that sets us apart from our competition
@@ -30,16 +31,16 @@ function MainAbout() {
                 determining. Through our years of experience, we’ve also learned
                 that while each channel.
               </p>
-              <span className="  text-4xl text-orange-600 ml-3">___</span>
+              <span className="  text-4xl text-teal-600 ml-3">___</span>
             </div>
             <div className="imgs">
-              <img src={image} alt="" />
+              <img src={Companyimg} alt="" />
             </div>
             <div className="imgs third">
-              <img src={image} alt="" />
+              <img src={Teamimage} alt="" />
             </div>
             <div className="imgs">
-              <img src={image} alt="" />
+              <img src={serviceImg} alt="" />
             </div>
           </div>
         </div>
@@ -52,7 +53,7 @@ function MainAbout() {
           <div className="choosefirst">
             <div className="back-container">
               {" "}
-              <img src={image} alt="" width={400} />
+              <img src={Companyimg} alt="" width={400} />
             </div>
           </div>
           <div className="choose-second">
@@ -72,7 +73,9 @@ function MainAbout() {
               wide-ranging experience to <br />
               determining.
             </p>
-            <span className=" underLine  text-4xl text-orange-600 ml-3">___</span>
+            <span className=" underLine  text-4xl text-teal-600 ml-3">
+              ___
+            </span>
           </div>
         </div>
         {/* -------slider------- */}

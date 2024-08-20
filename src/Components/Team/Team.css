@@ -1,77 +1,73 @@
-.outer-team{
-    width: 260px;
-    height: 330px;
-    
+.outer-team {
+  width: 260px;
+  height: 330px;
 }
-.team{
-    /* background-color: red; */
-    display: inline-block;
-    background-image: url(/public/team\ img.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 260px;
-    height: 330px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    transition: 0.4s;
-    align-items: start;
-    justify-content: end;
-
+.team {
+  /* background-color: red; */
+  display: inline-block;
+  background-image: url(/public/team\ img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 330px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.4s;
+  align-items: start;
+  justify-content: end;
 }
-.team:hover{
-    cursor: pointer;
-    transform: scale(1.06);
-    transition: 0.4s;
-    box-shadow: 2px 2px 50px rgb(92, 45, 27);
+.team:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+  transition: 0.4s;
+  box-shadow: 2px 2px 50px #0e9ebc;
 }
-.team .social-info{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-bottom: 20px;
-    display: block;
-    padding-left: 10px;
-    transition: all ease 0.4s;
-    
+.team .social-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
+  display: block;
+  padding-left: 10px;
+  transition: all ease 0.4s;
 }
-.team .social-info .info{
-    background-color: rgb(65, 64, 64);
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 50%;
-    margin-top:20px ;
-    color: orangered;
-    transition: 0.4s;
-
+.team .social-info .info {
+  background-color: rgb(65, 64, 64);
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin-top: 20px;
+  color: #0e9ebc;
+  transition: 0.4s;
 }
-.team .social-info .info:hover{
-    rotate: 15deg;
-    color: #fff;
-    background-color: orangered;
-    transition: 0.4s;
-    box-shadow: 2px 2px 25px orangered;
+.team .social-info .info:hover {
+  rotate: 15deg;
+  color: #fff;
+  background-color: #0e9ebc;
+  transition: 0.4s;
+  box-shadow: 2px 2px 25px #0e9ebc;
 }
-.team .team-person-data{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 50px;
-    padding-bottom: 36px;
-    
+.team .team-person-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 50px;
+  padding-bottom: 36px;
 }
-.team .team-person-data h2{
-    font-size: 25px;
-    text-align: center;
-    color: orangered;
-    font-weight:bold;
-    font-family: 'Times New Roman', Times, serif;
-    text-shadow: 2px 2px 5px rgb(253, 253, 253);
+.team .team-person-data h2 {
+  font-size: 25px;
+  text-align: center;
+  color: #0e9ebc;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 3px 3px 10px rgb(14, 17, 20);
 }
-.team .team-person-data p{
-    color: orangered;
-    text-shadow: 2px 2px 5px rgb(253, 253, 253);
-    font-size: 16px;
-    font-weight: 700;
+.team .team-person-data p {
+  color: #3ac9e6;
+  text-shadow: 2px 2px 5px rgb(14, 17, 20);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
 }

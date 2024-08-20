@@ -1,45 +1,43 @@
-import React from "react";
 import "./Fact.css";
 function Fact() {
   return (
     <>
-    <div className="asdf">
-      <div className="fact">
-        <div className="frist">
-          <h2>Our Fact Fun</h2>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error <br /> voluptatem
-            accusantium doloremque laudantium,  aperiam, eaque ipsa quae ab illo
-            inventore veritatis.
-          </p>
+      <div className="asdf">
+        <div className="fact">
+          <div className="frist">
+            <h2>Our Fact Fun</h2>
+            <p>
+              Unlimited Skills for Super Projects . We make a resposnsive
+              Website , Attractive designing of websites
+            </p>
+          </div>
+          <div className="second">
+            <div className="box1">
+              <h2>80</h2>
+              <p>
+                <span>+</span> Unique & Creative Projects
+              </p>
+            </div>
+            <div className="box1">
+              <h2>984</h2>
+              <p>
+                <span>+</span> Lines of Powerful Code
+              </p>
+            </div>
+            <div className="box1">
+              <h2>254</h2>
+              <p>
+                <span>+</span> Coffee , Pizzas Destroyed
+              </p>
+            </div>
+            <div className="box1" id="lastbox">
+              <h2>64</h2>
+              <p>
+                <span>+</span> Satisfied Clients
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="second">
-          <div className="box1">
-            <h2>40k</h2>
-            <p>
-              <span>+</span> Global Happy Clients
-            </p>
-          </div>
-          <div className="box1">
-            <h2>50k</h2>
-            <p>
-              <span>+</span> project completed
-            </p>
-          </div>
-          <div className="box1">
-            <h2>245k</h2>
-            <p>
-              <span>+</span> team members
-            </p>
-          </div>
-          <div className="box1" id="lastbox">
-            <h2>550k</h2>
-            <p>
-              <span>+</span> digital products
-            </p>
-          </div>
-        </div>
-      </div>
       </div>
     </>
   );

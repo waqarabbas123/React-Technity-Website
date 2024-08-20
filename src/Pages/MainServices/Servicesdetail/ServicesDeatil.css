@@ -64,8 +64,8 @@
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    padding: 30px 0px;
-    padding-bottom: 120px;
+    padding: 50px 0px 20px 0px ;
+    /* padding-bottom: 120px; */
 }
 
 .ser-detail-third .secondone h2{
@@ -92,10 +92,10 @@
 }
 .secondone .links p span{
     padding-right: 13px;
-    color: orangered;
+    color: #0e9ebc;
 }
 .secondone .links p:hover{
-    color: orangered;
+    color: #0e9ebc;
     transition: 0.4s;
 }
 @media(max-width:900px){

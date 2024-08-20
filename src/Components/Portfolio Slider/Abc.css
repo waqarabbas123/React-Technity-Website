@@ -3,3 +3,9 @@
         font-size: 20px;
     }
 }
+.portfolio{
+    color: #0e9ebc;
+}
+.readmore{
+    z-index: 100;
+}

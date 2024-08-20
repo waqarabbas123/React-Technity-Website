@@ -27,6 +27,8 @@ import WebDevelopment from "./Pages/Mainportfolio/WebDevelopment/WebDevelopment.
 import Vedioedit from "./Pages/Mainportfolio/VedioEditing/Vedioedit.jsx";
 import OurMission from "./Pages/OurMission/OurMission.jsx";
 import TeamDeatail from "./Pages/MainTeam/TeamDetails/TeamDetail.jsx";
+import Ai from "./Pages/Mainportfolio/Ai/Ai.jsx";
+import AppDevelopment from "./Pages/Mainportfolio/App development/AppDevelopment.jsx";
 
 const router = createBrowserRouter([
   //-------------section for the main about page---------
@@ -115,11 +117,31 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "/AppDevelopment",
+    element: (
+      <>
+        <Navbar />
+        <AppDevelopment />
+        <Footer />
+      </>
+    ),
+  },
+  {
     path: "/vedioEdit",
     element: (
       <div className="VedioEditPage">
         <Navbar />
         <Vedioedit />
+        <Footer />
+      </div>
+    ),
+  },
+  {
+    path: "/aiPage",
+    element: (
+      <div className="aiPage">
+        <Navbar />
+        <Ai />
         <Footer />
       </div>
     ),

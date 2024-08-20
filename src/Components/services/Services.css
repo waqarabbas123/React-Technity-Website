@@ -10,7 +10,7 @@
   padding-bottom: 20px;
   font-size: 16px;
   text-transform: capitalize;
-  color: orangered;
+  color: #0e9ebc;
 }
 .content h2 {
   font-size: 55px;
@@ -33,7 +33,7 @@
     padding-left: 8px;
 }
 .serviceBtn:hover{
-    color: orangered;
+    color: #0e9ebc;
 }
 .imageBox {
   display: flex;

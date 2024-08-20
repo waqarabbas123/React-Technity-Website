@@ -1,6 +1,10 @@
-import React from "react";
+
 import "./ServicesDeatil.css";
 import { FaArrowRightLong } from "react-icons/fa6"; //icons
+import companyImg from "/3nd-Second-Banner-Final-1.png"
+import { Link } from "react-router-dom";
+import circle from "/circle.png"
+import triangle from "/triangle.png"
 
 function ServiceDetail() {
   return (
@@ -27,10 +31,7 @@ function ServiceDetail() {
 
           <div className="ser-detail-box2">
             <div className="fristone">
-              <img
-                src="https://arino-react.vercel.app/images/icons/service_icon_2.svg"
-                alt=""
-              />
+              <img src={triangle} alt="" width={150} />
               <h2>Programing</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
@@ -39,10 +40,7 @@ function ServiceDetail() {
               </p>
             </div>
             <div className="fristone">
-              <img
-                src="	https://arino-react.vercel.app/images/icons/service_icon_2.svg"
-                alt=""
-              />
+              <img src={circle} alt="" width={150} />
               <h2>CMS Development</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
@@ -51,10 +49,7 @@ function ServiceDetail() {
               </p>
             </div>
             <div className="fristone">
-              <img
-                src="	https://arino-react.vercel.app/images/icons/service_icon_3.svg"
-                alt=""
-              />
+              <img src={triangle} alt="" width={150} />
               <h2>Vedio Editing</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
@@ -67,11 +62,7 @@ function ServiceDetail() {
         {/* --------------3rd portion----------- */}
         <div className="ser-detail-third">
           <div className="secondone">
-            <img
-              className="rounded-2xl"
-              src="https://arino-react.vercel.app/images/service_img_1.jpeg"
-              alt=""
-            />
+            <img className="rounded-2xl" src={companyImg} alt="" />
           </div>
           <div className="secondone">
             <h2>
@@ -83,42 +74,35 @@ function ServiceDetail() {
                   <span>
                     <FaArrowRightLong />
                   </span>
-                  <a href="/">web page design</a>
+                  <Link to="/Webdevelopment">Web Development</Link>
                 </p>
 
                 <p>
                   <span>
                     <FaArrowRightLong />
                   </span>
-                  <a href="/">web page design</a>
+                  <Link to="/vedioEdit">Vedio Editing</Link>
                 </p>
 
                 <p>
                   <span>
                     <FaArrowRightLong />
                   </span>
-                  <a href="/">web page design</a>
+                  <Link to="/AppDevelopment">App Development</Link>
                 </p>
 
                 <p>
                   <span>
                     <FaArrowRightLong />
                   </span>
-                  <a href="/">web page design</a>
+                  <Link to="/MainContact">SEO</Link>
                 </p>
 
                 <p>
                   <span>
                     <FaArrowRightLong />
                   </span>
-                  <a href="/">web page design</a>
-                </p>
-
-                <p>
-                  <span>
-                    <FaArrowRightLong />
-                  </span>
-                  <a href="/">web page design</a>
+                  <Link to="/aiPage">Artifical Intelligence</Link>
                 </p>
               </div>
               <div id="box2">
@@ -126,25 +110,19 @@ function ServiceDetail() {
                   <span>
                     <FaArrowRightLong />
                   </span>
-                  <a href="/">web page design</a>
+                  <Link to="/MainContact">web page design</Link>
                 </p>
                 <p>
                   <span>
                     <FaArrowRightLong />
                   </span>
-                  <a href="/">web page design</a>
+                  <Link to="/MainContact">web page design</Link>
                 </p>
                 <p>
                   <span>
                     <FaArrowRightLong />
                   </span>
-                  <a href="/">web page design</a>
-                </p>
-                <p>
-                  <span>
-                    <FaArrowRightLong />
-                  </span>
-                  <a href="/">web page design</a>
+                  <Link to="/MainContact">web page design</Link>
                 </p>
               </div>
             </div>
@@ -152,10 +130,7 @@ function ServiceDetail() {
         </div>
 
         {/* -----------4th portion-------- */}
-        <div className="ser-detail-forth">
-         
-         
-        </div>
+        <div className="ser-detail-forth"></div>
       </div>
     </>
   );

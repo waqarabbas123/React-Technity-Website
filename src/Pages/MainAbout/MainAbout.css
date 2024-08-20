@@ -20,7 +20,7 @@
 }
 .abouthome h2 {
   font-size: 42px;
-  color: orangered;
+  color: #0e9ebc;
   font-weight: 400;
   text-transform: capitalize;
   font-family: cursive;
@@ -61,7 +61,7 @@
 }
 .firstcontent h3 {
   font-size: 14px;
-  color: orangered;
+  color: #0e9ebc;
   font-weight: 600;
   padding-bottom: 20px;
   text-transform: capitalize;
@@ -114,7 +114,7 @@
 }
 .choose-second h3{
     font-size: 18px;
-    color: orangered;
+    color: #0e9ebc;
     font-weight: 600;
     padding-bottom: 20px;
     text-transform: capitalize;

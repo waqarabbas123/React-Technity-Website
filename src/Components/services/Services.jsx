@@ -1,9 +1,8 @@
-import React from "react";
 import "./Services.css";
 import { Link } from "react-router-dom";
 // -------- import  images
 import serviceimage1 from "/service image 1.png";
-import serviceimage2 from "/service image 2.jpg";
+import serviceimage2 from "/service image 21.jpg";
 import serviceimage3 from "/serviceimage3.jpg";
 import serviceimage4 from "/serviceimage4.jpg";
 //------import icons

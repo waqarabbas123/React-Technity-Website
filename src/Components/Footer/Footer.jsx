@@ -1,5 +1,5 @@
-import React from "react";
 import "./Footer.css";
+import React from "react";
 import { Link } from "react-router-dom";
 
 import { FaArrowRight } from "react-icons/fa6"; // arrow icon
@@ -9,6 +9,30 @@ import { FaYoutube } from "react-icons/fa"; //youtube icon
 import { FaFacebookF } from "react-icons/fa"; //facebook icon
 
 function Footer() {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "d1b9050a-d5df-4504-b554-c543621a15d9");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
   return (
     <>
       <div className="footer">
@@ -37,12 +61,15 @@ function Footer() {
               <b>Make IT</b>
             </h2>
             <p>
-              Welcome to arino sed ut <br /> perspiciae omunde omnis iste <br />{" "}
-              natus error sitort voluptatem <br /> accusantium.
+              Welcome to our studio! We <br /> employ people who have passion{" "}
+              <br /> for design and marketing. It is a <br /> perfect
+              combination of professionalism <br /> and creative approach.
             </p>
             <div className="social">
               <div className="footer-icons">
-                <FaTwitter />
+                <a href="https://x.com/Technity323" target="_blank">
+                  <FaTwitter />
+                </a>
               </div>
               <div className="footer-icons">
                 <a
@@ -53,7 +80,12 @@ function Footer() {
                 </a>
               </div>
               <div className="footer-icons">
-                <FaYoutube />
+                <a
+                  href="https://www.youtube.com/@technity9748/featured"
+                  target="_blank"
+                >
+                  <FaYoutube />
+                </a>
               </div>
               <div className="footer-icons">
                 <a
@@ -67,25 +99,25 @@ function Footer() {
           </div>
           <div className="second-data">
             <h2>
-              <a href="#">Services</a>
+              <Link>Services</Link>
             </h2>
             <p>
-              <a href="#">AI</a>
+              <Link to="/aiPage">Artifical Intelligence</Link>
             </p>
             <p>
-              <a href="#">Web Development</a>
+              <Link to="/Webdevelopment">Web Development</Link>
             </p>
             <p>
-              <a href="#">Digital Marketing</a>
+              <Link to="/AppDevelopment">App Development</Link>
             </p>
             <p>
-              <a href="#">Vedio Editing</a>
+              <Link to="/vedioEdit">Vedio Editing</Link>
             </p>
           </div>
           <div className="second-data">
             <h2>Contact us</h2>
-            <p>+92-3************</p>
-            <p>technity@gmail.com</p>
+            <p>+92 311 3657733</p>
+            <p>info@technity.com.pk</p>
             <p>
               <a
                 href="https://maps.app.goo.gl/BcmRiTar2LzQ16eZ6"
@@ -99,17 +131,23 @@ function Footer() {
           <div className="last">
             <h2>Subscribe</h2>
             <div className="input-data">
-              <input type="email" placeholder="Enter Your Email" />
-              <button id="sendbtn"> Send </button>
+              <form action="" onSubmit={onSubmit}>
+                <input type="email" placeholder="Enter Your Email" />
+                <button id="sendbtn"> Send </button>
+              </form>
             </div>
+            <span className="text-teal-400 text-xl block py-2">{result}</span>
             <p>
-              At vero eos et accusamus et iusto <br /> odio as part dignissimos
-              ducimus <br /> qui blandit.
+              Reach out for personalized <br /> solutions and expert support{" "}
+              <br /> anytime, anywhere
             </p>
           </div>
         </div>
         <div className="footerlast">
-          <p>Copyright © 2022 Laralink.</p>
+          <p>
+            technity solution <span className="text-teal-400">©</span> 2022
+            Laralink.
+          </p>
           <p id="box">
             <span id="frist"> Terms of Use</span>|
             <span id="last">Privacy Policy</span>

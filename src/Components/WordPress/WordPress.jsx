@@ -1,9 +1,9 @@
-import React from "react";
+
 import "./WordPress.css";
 import ProjectItem from "../ProjectItem/ProjectItem";
 // ----------images-------
 
-import AliImg from "/background img.jfif"; //AliImg
+// import AliImg from "/background img.jfif"; //AliImg
 import Dentalart from "/wordpress/dentalart.jpeg";
 import richmenbs from "/wordpress/richmenbs.png";
 import donikah from "/wordpress/donikah.png";
@@ -20,7 +20,7 @@ import goldenspike from "/wordpress/goldenspike.jpg";
 function WordPress() {
   return (
     <>
-      <h2 className="capitalize text-orange-600 text-2xl text-center py-3 pb-5">Wordpress Projects</h2>
+      <h2 className="capitalize text-teal-600 text-2xl text-center py-3 pb-5">Wordpress Projects</h2>
       <div className="wordpress ">
         {/* -----1---- */}
         <ProjectItem

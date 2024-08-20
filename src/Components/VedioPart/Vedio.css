@@ -30,35 +30,35 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: orangered;
+  color: #0e9ebc;
   font-size: 50px;
-  background-color: rgb(166, 166, 167);
+  background-color: rgb(121, 121, 121);
   padding-left: 7px;
   transition: 0.8s;
   /* border: 2px solid orangered; */
 }
 
 #Playbtn:hover {
-  background-color: orangered;
-  color: rgb(141, 130, 130);
+  background-color: #0e9ebc;
+  color: rgb(141, 141, 141);
   transition: 0.8s;
   cursor: pointer;
-  box-shadow: 2px 2px 30px rgb(138, 133, 133);
+  box-shadow: 2px 2px 30px rgb(155, 154, 154);
   /* border: 2px solid #fff; */
 }
 .closebtn {
   position: absolute;
-  color: rgb(255, 255, 255);
+  color: rgb(168, 168, 168);
   font-size: 30px;
   top: -45px;
   right: 60px;
   transition: 0.4s;
-  border: 2px solid orangered;
+  border: 2px solid #868686;
   padding: 3px;
   border-radius: 4px;
 }
 .closebtn:hover {
-  color: orangered;
+  color: #0e9ebc;
   cursor: pointer;
   transition: 0.4s;
 }

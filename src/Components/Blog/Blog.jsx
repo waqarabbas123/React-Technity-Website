@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+// import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import images from "/serviceimage4.jpg";
 
@@ -6,12 +6,19 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { FaArrowRight } from "react-icons/fa"; //----icon
+import sajid from "/TeamImages/sajid.jpeg"
+import mali from "/TeamImages/m-ali.jpeg";
+import mehdi from "/TeamImages/mehdi.jpg";
+import abbas from "/TeamImages/abbas.jpeg";
+import waqar from "/TeamImages/waqar.jpeg";
+import israr from "/TeamImages/israr.jpg";
+import junaid from "/TeamImages/junaid.jpeg";
 //------------last images-------
-import partner1 from '/partner_1.svg'
-import partner2 from '/partner_2.svg'
-import partner3 from '/partner_3.svg'
-import partner4 from '/partner_4.svg'
-import partner5 from '/partner_5.svg'
+import partner1 from "/partner_1.svg";
+import partner2 from "/partner_2.svg";
+import partner3 from "/partner_3.svg";
+import partner4 from "/partner_4.svg";
+import partner5 from "/partner_5.svg";
 
 import "./Blog.css";
 function Blog() {
@@ -19,12 +26,12 @@ function Blog() {
     <>
       <div className="blog">
         <div className="blog-content">
-          <h3>Our Blog</h3>
+          <h3>Our Team</h3>
           <h2>
-            Explore recent <br /> publication
+            Welcome to our <br /> Team
           </h2>
           <a href="#">
-            View More Blog
+            View More 
             <span>
               <FaArrowRight />
             </span>
@@ -42,35 +49,31 @@ function Blog() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src={images} alt="" />
+              <img src={sajid} alt="" />
             </SwiperSlide>
 
             <SwiperSlide className="slider-item">
-              <img src={images} alt="" />
+              <img src={mali} alt="" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={images} alt="" />
+              <img src={mehdi} alt="" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={images} alt="" />
+              <img src={abbas} alt="" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={images} alt="" />
+              <img src={waqar} alt="" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={images} alt="" />
+              <img src={junaid} alt="" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={images} alt="" />
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <img src={images} alt="" />
+              <img src={israr} alt="" />
             </SwiperSlide>
 
             <SwiperSlide>
@@ -86,21 +89,23 @@ function Blog() {
 
         {/* ------slider text------------ */}
         <div className="animate-text">
-          <div class="marquee">
+          <div className="marquee">
             <div className="text-container">
-            <span className="text-back">
-              This is an infinitely sliding text animation using pure CSS3.
-              Enjoy the smooth scrolling effect !
-            </span>
-            <span className="text-front">
-              This is an infinitely sliding text animation using pure CSS3.
-              Enjoy the smooth scrolling effect !
-            </span>
+              <span className="text-back">
+                Our software agency specializes in innovative solutions,
+                delivering custom applications , Websites that drive Designing
+                growth and enhance user experiences
+              </span>
+              <span className="text-front">
+                Our software agency specializes in innovative solutions,
+                delivering custom applications , Websites that drive Designing
+                growth and enhance user experiences
+              </span>
             </div>
           </div>
         </div>
         {/* -----------images--------- */}
-        <div className="images-container pt-24">
+        <div className="images-container pt-14">
           <div className="boxes">
             <img src={partner1} alt="" />
           </div>

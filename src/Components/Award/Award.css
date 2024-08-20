@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 100px 180px 50px 70px ;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     position: relative;
     overflow: hidden;
     flex-wrap: wrap;
@@ -15,7 +15,7 @@
     color: aliceblue;
 }
 .awardContent p{
-    color: orangered;
+    color: #0e9ebc;
     font-size: 16px;
     font-weight: 600;
     padding-bottom: 20px;
@@ -38,7 +38,7 @@
     margin-bottom: 40px;
 }
 .award-year h3{
-    color: orangered;
+    color: #0e9ebc;
     font-size: 26px;
     padding-bottom: 10px;
 }

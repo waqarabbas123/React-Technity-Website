@@ -33,7 +33,7 @@
   font-size: 25px;
 }
 .upperbox a:hover {
-  color: orangered;
+  color: #0e9ebc;
   transition: 0.4s;
 }
 .triangle1 {
@@ -41,7 +41,7 @@
   height: 10px;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 20px solid rgb(196, 52, 0); /* Change color as needed */
+  border-bottom: 20px solid #0e9ebc; /* Change color as needed */
   rotate: 135deg;
   position: absolute;
   bottom: 40px;
@@ -52,7 +52,7 @@
   height: 10px;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 20px solid rgb(196, 52, 0); /* Change color as needed */
+  border-bottom: 20px solid #0e9ebc; /* Change color as needed */
   rotate: 50deg;
   position: absolute;
   top: 120px;
@@ -64,7 +64,7 @@
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 20px solid rgb(196, 52, 0); /* Change color as needed */
+  border-bottom: 20px solid #0e9ebc; /* Change color as needed */
   rotate: 80deg;
   position: absolute;
   right: 200px;
@@ -105,7 +105,7 @@
   padding-bottom: 25px;
 }
 .first-data h2 span {
-  color: orangered;
+  color: #0e9ebc;
 }
 .first-data h2 b {
   display: block;
@@ -138,8 +138,8 @@
   transition: 0.4s;
 }
 .social .footer-icons:hover {
-  color: orangered;
-  border: 1px solid orangered;
+  color: #0e9ebc;
+  border: 1px solid #0e9ebc;
   cursor: pointer;
   transition: 0.4s;
   box-shadow: 1px 1px 15px #979797;
@@ -149,7 +149,7 @@
   flex-direction: column;
 }
 .second-data h2 {
-  color: orangered;
+  color:#0e9ebc;
   font-size: 23px;
   font-weight: 500;
   padding-bottom: 40px;
@@ -162,12 +162,12 @@
   transition: 0.4s;
 }
 .second-data p:hover {
-  color: orangered;
+  color: #0e9ebc;
   transition: 0.4s;
   cursor: pointer;
 }
 .last h2 {
-  color: orangered;
+  color: #0e9ebc;
   font-size: 23px;
   font-weight: 500;
   padding-bottom: 30px;
@@ -187,12 +187,17 @@
   background-color: black;
   outline: 1px solid rgb(190, 190, 190);
 }
+.last input:focus{
+  border: 1px solid #0e9ebc;
+  outline: none;
+  transition: all ease 0.4s;
+}
 #sendbtn {
   padding: 8px 10px;
   border: none;
   border-radius: 7px;
   margin-left: 10px;
-  background-color: orangered;
+  background-color: #0e9ebc;
   color: #fff;
   font-weight: 700;
 }
@@ -230,13 +235,13 @@
   transition: 0.4s;
 }
 #box #frist:hover {
-  color: orangered;
+  color: #0e9ebc;
   transition: 0.4s;
   cursor: pointer;
 }
 
 #box #last:hover {
-  color: orangered;
+  color: #0e9ebc;
   cursor: pointer;
   transition: 0.4s;
 }

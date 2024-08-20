@@ -1,9 +1,7 @@
-import React from "react";
-import './Abc.css'
+import "./Abc.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import image from "/TeamImages/hassan img.avif";
-import Second from '/team img.jpg'
 
 function PortfolioSilder() {
   const responsive = {
@@ -28,8 +26,13 @@ function PortfolioSilder() {
   return (
     <>
       <div className="slider w-[100%] mx-auto pt-20 mb-16">
-        <p className="text-center pb-2 text-lg text-orange-600 font-semibold"> Latest Project</p>
-        <h2 className="text-5xl font-semibold text-white text-center">Portfolio to explore</h2>
+        <p className="text-center pb-2 text-lg portfolio font-semibold">
+          {" "}
+          Latest Project
+        </p>
+        <h2 className="text-5xl font-semibold text-white text-center">
+          Portfolio to explore
+        </h2>
         <Carousel responsive={responsive} className="mt-20 mb-32">
           <div className="slideImage mr-3 rounded-md ">
             <img className="rounded-md w-[100%]" src={image} alt="" />
@@ -56,7 +59,11 @@ function PortfolioSilder() {
             <img className="rounded-md" src={image} alt="" />
           </div>
         </Carousel>
-        ;
+        <div className="readmore">
+          <a className="" href="">
+            Read More
+          </a>
+        </div>
       </div>
     </>
   );

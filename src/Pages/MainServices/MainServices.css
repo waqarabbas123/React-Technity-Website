@@ -20,13 +20,13 @@
     font-size: 45px;
     font-weight: 400;
     font-family: cursive;
-    color: orangered;
+    color: #0e9ebc;
 }
 .service-home .ser-home{
     font-size: 17px;
     padding-right: 7px;
     text-transform: uppercase;
-    border-right: 1px solid orangered;
+    border-right: 1px solid #0e9ebc;
     letter-spacing: 1px;
     color: #afafaf;
 
@@ -50,7 +50,7 @@
 
 }
 .serv-content .content-first h3{
-    color: orangered;
+    color: #0e9ebc;
     font-size: 18px;
     font-weight: 500;
 

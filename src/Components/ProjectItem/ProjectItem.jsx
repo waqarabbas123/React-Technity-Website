@@ -1,10 +1,8 @@
-import { useState} from "react";
+import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa"; //icons
 
 function ProjectItem(props) {
   const [isHovered, setisHovered] = useState("");
-
-
 
   const style = {
     backgroundImage: `url(${props.backgroundImage})`,
@@ -20,11 +18,10 @@ function ProjectItem(props) {
     alignItems: "start",
     borderRadius: "10px", // Optional: For rounded corners
     transition: "0.4s",
-    boxShadow: "4px 2px 10px rgba(255, 69, 0, 0.6)", // box shadow style
+    boxShadow: "4px 2px 10px rgba(14, 158, 188, 1)", // box shadow style
   };
   return (
     <div className="relative">
-      
       <div
         style={style}
         onMouseEnter={() => setisHovered(true)}
@@ -41,7 +38,7 @@ function ProjectItem(props) {
             <a
               href={props.projectlink}
               target="_blank"
-              className="transition hover:text-orange-700 flex items-center justify-center text-lg gap-2"
+              className="transition hover:text-teal-700 flex items-center justify-center text-lg gap-2"
             >
               Expend More
               <FaArrowRight />
