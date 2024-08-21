@@ -35,7 +35,7 @@ import Scroll from "./Components/Scroll/Scroll.jsx";
 const router = createBrowserRouter([
   //-------------section for the main about page---------
   {
-    path: "/mainAbout",
+    path: "/about",
     element: (
       <>
         <Navbar />
@@ -70,7 +70,7 @@ const router = createBrowserRouter([
   },
   //---------section for services------
   {
-    path: "/Services",
+    path: "/services",
     element: (
       <>
         <Navbar />
@@ -96,7 +96,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/MainContact",
+    path: "/contact",
     element: (
       <>
         <Navbar />
@@ -109,7 +109,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/Mainteam",
+    path: "/team",
     element: (
       <>
         <Navbar />
@@ -121,7 +121,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/Webdevelopment",
+    path: "/webdevelopment",
     element: (
       <>
         <Navbar />
@@ -133,7 +133,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/AppDevelopment",
+    path: "/appdevelopment",
     element: (
       <>
         <Navbar />
@@ -145,7 +145,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/vedioEdit",
+    path: "/vedioediting",
     element: (
       <div className="VedioEditPage">
         <Navbar />
@@ -157,7 +157,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/aiPage",
+    path: "/ai",
     element: (
       <div className="aiPage">
         <Navbar />
@@ -169,7 +169,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/OurMission",
+    path: "/ourmission",
     element: (
       <div className="OurMissionPage">
         <Navbar />
@@ -181,7 +181,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/TeamDetail",
+    path: "/teamdetail",
     element: (
       <div className="teamdetail">
         <Navbar />

@@ -52,7 +52,7 @@ function Navbar() {
             </li>
 
             <li>
-              <Link to="/MainAbout">About</Link>
+              <Link to="/about">About</Link>
             </li>
 
             <li>
@@ -67,6 +67,7 @@ function Navbar() {
 
             <li>
               <a
+                href="#"
                 onMouseEnter={() => setportfoliohover(true)}
                 onMouseLeave={() => setportfoliohover(false)}
               >
@@ -113,7 +114,7 @@ function Navbar() {
           >
             <ul>
               <li>
-                <Link to="/Services">
+                <Link to="/services">
                   <IoMdArrowDropright /> services
                 </Link>
               </li>
@@ -134,22 +135,22 @@ function Navbar() {
           >
             <ul>
               <li>
-                <Link to={"/Webdevelopment"}>
+                <Link to={"/webdevelopment"}>
                   <IoMdArrowDropright /> web development
                 </Link>
               </li>
               <li>
-                <Link to="/vedioEdit">
+                <Link to="/vedioediting">
                   <IoMdArrowDropright /> vedio editing
                 </Link>
               </li>
               <li>
-                <Link to="/AppDevelopment">
+                <Link to="/appdevelopment">
                   <IoMdArrowDropright /> App Development
                 </Link>
               </li>
               <li>
-                <Link to="/aiPage">
+                <Link to="/ai">
                   <IoMdArrowDropright /> artificial intelligence
                 </Link>
               </li>
@@ -174,17 +175,17 @@ function Navbar() {
           >
             <ul>
               <li>
-                <Link to="/MainContact">
+                <Link to="/contact">
                   <IoMdArrowDropright /> contact
                 </Link>
               </li>
               <li>
-                <Link to="/Mainteam">
+                <Link to="/team">
                   <IoMdArrowDropright /> team
                 </Link>
               </li>
               <li>
-                <Link to="/TeamDetail">
+                <Link to="/teamdetail">
                   <IoMdArrowDropright /> team details
                 </Link>
               </li>
@@ -194,7 +195,7 @@ function Navbar() {
                 </a>
               </li> */}
               <li>
-                <Link to="/OurMission">
+                <Link to="/ourmission">
                   <IoMdArrowDropright /> our mission
                 </Link>
               </li>

@@ -12,7 +12,7 @@
   }
   .OurMissionHome h2 {
     font-size: 48px;
-    color: orangered;
+    color: #0e9ebc;
     font-weight: 600;
     text-transform: capitalize;
     font-family: cursive;
@@ -21,7 +21,7 @@
   .OurMissionHome p,
   .fristchild {
     font-size: 16px;
-    color:orangered;
+    color:#0e9ebc;
     font-weight: lighter;
     text-transform: uppercase;
     padding-right: 3px;
