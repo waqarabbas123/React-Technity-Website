@@ -1,11 +1,11 @@
 // import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from "react-router-dom";
-import images from "/serviceimage4.jpg";
+// import images from "/serviceimage4.jpg";
 
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 import { FaArrowRight } from "react-icons/fa"; //----icon
 import sajid from "/TeamImages/sajid.jpeg";
 import mali from "/TeamImages/m-ali.jpeg";
@@ -26,61 +26,63 @@ function Blog() {
   return (
     <>
       <div className="blog">
-        <div className="blog-content">
-          <h3>Our Team</h3>
-          <h2>
-            Welcome to our <br /> Team
-          </h2>
-          <Link to="/Mainteam">
-            View More
-            <span>
-              <FaArrowRight />
-            </span>
-          </Link>
-        </div>
-        <div className="slider">
-          <Swiper
-            slidesPerView={2}
-            spaceBetween={0}
-            pagination={{
-              clickable: true,
-            }}
-            x
-            modules={[Pagination]}
-            className="mySwiper"
-          >
-            <SwiperSlide>
-              <img src={sajid} alt="" />
-            </SwiperSlide>
+        <div className="respsil">
+          <div className="blog-content">
+            <h3>Our Team</h3>
+            <h2>
+              Welcome to our <br /> Team
+            </h2>
+            <Link to="/Mainteam">
+              View More
+              <span>
+                <FaArrowRight />
+              </span>
+            </Link>
+          </div>
+          <div className="slider">
+            <Swiper
+              slidesPerView={2}
+              spaceBetween={0}
+              pagination={{
+                clickable: true,
+              }}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
+              loop={true}
+              modules={[Pagination, Autoplay]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <img src={sajid} alt="sajid" />
+              </SwiperSlide>
 
-            <SwiperSlide className="slider-item">
-              <img src={mali} alt="" />
-            </SwiperSlide>
+              <SwiperSlide className="slider-item">
+                <img src={mali} alt="mali" />
+              </SwiperSlide>
 
-            <SwiperSlide>
-              <img src={mehdi} alt="" />
-            </SwiperSlide>
+              <SwiperSlide>
+                <img src={mehdi} alt="mehdi" />
+              </SwiperSlide>
 
-            <SwiperSlide>
-              <img src={abbas} alt="" />
-            </SwiperSlide>
+              <SwiperSlide>
+                <img src={abbas} alt="abbas" />
+              </SwiperSlide>
 
-            <SwiperSlide>
-              <img src={waqar} alt="" />
-            </SwiperSlide>
+              <SwiperSlide>
+                <img src={waqar} alt="waqar" />
+              </SwiperSlide>
 
-            <SwiperSlide>
-              <img src={junaid} alt="" />
-            </SwiperSlide>
+              <SwiperSlide>
+                <img src={junaid} alt="junaid" />
+              </SwiperSlide>
 
-            <SwiperSlide>
-              <img src={israr} alt="" />
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <img src={images} alt="" />
-            </SwiperSlide>
-          </Swiper>
+              <SwiperSlide>
+                <img src={israr} alt="israr" />
+              </SwiperSlide>
+            </Swiper>
+          </div>
         </div>
 
         {/* -------black circle---------- */}

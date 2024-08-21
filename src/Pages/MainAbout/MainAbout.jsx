@@ -52,7 +52,6 @@ function MainAbout() {
         <div className="choose-content">
           <div className="choosefirst">
             <div className="back-container">
-              {" "}
               <img src={Companyimg} alt="" width={400} />
             </div>
           </div>

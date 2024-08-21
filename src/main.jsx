@@ -29,6 +29,8 @@ import OurMission from "./Pages/OurMission/OurMission.jsx";
 import TeamDeatail from "./Pages/MainTeam/TeamDetails/TeamDetail.jsx";
 import Ai from "./Pages/Mainportfolio/Ai/Ai.jsx";
 import AppDevelopment from "./Pages/Mainportfolio/App development/AppDevelopment.jsx";
+import Whatsapp from "./Components/Whatsapp/Whatsapp.jsx";
+import Scroll from "./Components/Scroll/Scroll.jsx";
 
 const router = createBrowserRouter([
   //-------------section for the main about page---------
@@ -36,8 +38,10 @@ const router = createBrowserRouter([
     path: "/mainAbout",
     element: (
       <>
-       <Navbar />
+        <Navbar />
         <MainAbout />
+        <Whatsapp />
+        <Scroll />
       </>
     ),
   },
@@ -58,6 +62,8 @@ const router = createBrowserRouter([
           <Vediopart />
           <Blog />
           <Footer />
+          <Whatsapp />
+          <Scroll />
         </div>
       </>
     ),
@@ -70,6 +76,8 @@ const router = createBrowserRouter([
         <Navbar />
         <MainServices />
         <Footer />
+        <Whatsapp />
+        <Scroll />
       </>
     ),
   },
@@ -82,6 +90,8 @@ const router = createBrowserRouter([
         <div className="footer">
           <Footer />
         </div>
+        <Whatsapp />
+        <Scroll />
       </>
     ),
   },
@@ -93,6 +103,8 @@ const router = createBrowserRouter([
         <MainContact />
         <Map />
         <Footer />
+        <Whatsapp />
+        <Scroll />
       </>
     ),
   },
@@ -103,6 +115,8 @@ const router = createBrowserRouter([
         <Navbar />
         <MainTeam />
         <Footer />
+        <Whatsapp />
+        <Scroll />
       </>
     ),
   },
@@ -113,6 +127,8 @@ const router = createBrowserRouter([
         <Navbar />
         <WebDevelopment />
         <Footer />
+        <Whatsapp />
+        <Scroll />
       </>
     ),
   },
@@ -123,6 +139,8 @@ const router = createBrowserRouter([
         <Navbar />
         <AppDevelopment />
         <Footer />
+        <Whatsapp />
+        <Scroll />
       </>
     ),
   },
@@ -133,6 +151,8 @@ const router = createBrowserRouter([
         <Navbar />
         <Vedioedit />
         <Footer />
+        <Whatsapp />
+        <Scroll />
       </div>
     ),
   },
@@ -143,6 +163,8 @@ const router = createBrowserRouter([
         <Navbar />
         <Ai />
         <Footer />
+        <Whatsapp />
+        <Scroll />
       </div>
     ),
   },
@@ -151,8 +173,10 @@ const router = createBrowserRouter([
     element: (
       <div className="OurMissionPage">
         <Navbar />
-       <OurMission />
+        <OurMission />
         <Footer />
+        <Whatsapp />
+        <Scroll />
       </div>
     ),
   },
@@ -161,12 +185,12 @@ const router = createBrowserRouter([
     element: (
       <div className="teamdetail">
         <Navbar />
-       <TeamDeatail />
+        <TeamDeatail />
         <Footer />
+        <Scroll />
       </div>
     ),
   },
-
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa"; //icons
 
@@ -40,7 +41,7 @@ function ProjectItem(props) {
               target="_blank"
               className="transition hover:text-teal-700 flex items-center justify-center text-lg gap-2"
             >
-              Expend More
+              Visit Site
               <FaArrowRight />
             </a>
           </div>

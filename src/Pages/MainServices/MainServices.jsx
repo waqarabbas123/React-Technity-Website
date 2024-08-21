@@ -31,24 +31,16 @@ function MainServices() {
                 pricing for client
               </h2>
             </div>
-            
+
             <div className="content-btn">
-              <button
-                className="Monthly"
-              >
-                Monthly
-              </button>
-              <button
-                className="Yearly"
-              >
-                Yearly
-              </button>
+              <button className="Monthly">Monthly</button>
+              <button className="Yearly">Yearly</button>
             </div>
           </div>
           <div className="service-cards">
-            <ServiceCard heading = "Standard" price = "$29/" />
-            <ServiceCard heading = "Professional" price = "$199/"/>
-            <ServiceCard heading = "Ultimate" price = "$299/"/>
+            <ServiceCard heading="Standard" price="$29/" base="Daily" />
+            <ServiceCard heading="Professional" price="$199/" base="Monthly" />
+            <ServiceCard heading="Ultimate" price="$299/" base="Yearly" />
           </div>
         </div>
       </div>

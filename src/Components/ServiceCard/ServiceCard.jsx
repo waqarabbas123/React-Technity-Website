@@ -1,14 +1,15 @@
 import "./ServiceCard.css";
 import { FaArrowRight } from "react-icons/fa"; //icons
 import { Link } from "react-router-dom";
-function ServiceCard(props) {
+// eslint-disable-next-line react/prop-types
+function ServiceCard({ heading, price, base }) {
   return (
     <>
       <div className="card">
-        <h2>{props.heading}</h2>
+        <h2>{heading}</h2>
         <h3>
-          {props.price}
-          <span>montly</span>
+          {price}
+          <span>{base}</span>
         </h3>
         <p>per subscriber per year</p>
         <ul>
@@ -16,7 +17,7 @@ function ServiceCard(props) {
             <span>
               <FaArrowRight />
             </span>
-            Static responsive website
+            Static Designing website
           </li>
           <li>
             <span>
@@ -28,31 +29,30 @@ function ServiceCard(props) {
             <span>
               <FaArrowRight />
             </span>
-            Static responsive website
+            Static Atractive website
           </li>
           <li>
             <span>
               <FaArrowRight />
             </span>
-            Static responsive website
+            Social Media Marketing
           </li>
           <li>
             <span>
               <FaArrowRight />
             </span>
-            Static responsive website
+            Static Landing Pages
           </li>
           <li>
             <span>
               <FaArrowRight />
             </span>
-            Static responsive website
+            Static Android Platforms
           </li>
         </ul>
         <Link to="/MainContact">
-          Purchase Now{" "}
+          Purchase Now
           <span>
-            {" "}
             <FaArrowRight />
           </span>
         </Link>
