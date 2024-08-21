@@ -1,11 +1,85 @@
-@media (max-width: 555px){
-    .slider h2{
-        font-size: 20px;
-    }
+@media (max-width: 555px) {
+  .slider h2 {
+    font-size: 20px;
+  }
 }
-.portfolio{
-    color: #0e9ebc;
+.portfolio {
+  color: #0e9ebc;
 }
-.readmore{
-    z-index: 100;
+.readmore {
+  z-index: 100;
+}
+.slideImage {
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.contentx {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 6, 7, 0.705);
+}
+.contentx a:hover {
+  color: #0e9ebc;
+}
+.slideImage1 {
+  background-image: url(/public/mangento/chin-chin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slideImage2 {
+  background-image: url(/public/wordpress/donikah.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slideImage3 {
+  background-image: url(/public/wordpress/kim.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slideImage4 {
+  background-image: url(/public/webflow\ img/allunit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slideImage5 {
+  background-image: url(/public/webflow\ img/Capture-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slideImage6 {
+  background-image: url(/public/mangento/fusionfirearms.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.Btn10 {
+  position: absolute;
+  top: 100vh;
+  left: 43%;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  transition: 0.4s;
+  border: 1px solid #0e9ebc;
+  padding: 10px 20px;
+  background-color: #e7e7e7;
+  color: #01aaa2;
+  font-weight: 400;
+  border-radius: 9px;
+}
+.Btn10:hover {
+  color: #cacaca;
+  background-color: #076e83;
+  border: 1px solid #888888;
 }

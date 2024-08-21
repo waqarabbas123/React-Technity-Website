@@ -1,13 +1,13 @@
 .home {
   width: 100%;
-  background-image: url(/public/new\ background.jpeg);
+  background-image: url(/public/backgroundBLue.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: white;
   padding-bottom: 100px;
   position: relative;
-  z-index:2;
+  z-index: 2;
 }
 
 .triangleHome1 {
@@ -55,11 +55,11 @@
   background: transparent;
 }
 .home .upper h2 {
-  font-size: 100px;
+  font-size: 55px;
   /* padding-top:10px ; */
-  margin-left: 100px;
+  margin-left: 130px;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 600;
   z-index: 2;
 }
 .home .upper .social-side {
@@ -87,9 +87,20 @@
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  /* margin-left: 120px; */
   font-weight: 400;
   transition: 0.4s;
+  border: 1px solid #0e9ebc;
+  padding: 10px 20px;
+  background-color: #e7e7e7;
+  color: #01aaa2;
+  font-weight: 400;
+  border-radius: 9px;
+  margin-left: 20px;
+}
+.home .lowerContent h3 a:hover {
+  color: #cacaca;
+  background-color: #076e83;
+  border: 1px solid #888888;
 }
 .home .lowerContent h3 span {
   font-size: 20px;
@@ -105,7 +116,7 @@
 .home .lowerContent p {
   font-size: 18px;
   color: #e2e2e2;
-  margin-right: 160px;
+  margin-right: 180px;
   letter-spacing: 1px;
   line-height: 24px;
 }
@@ -124,8 +135,8 @@
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  border-color: #c3e8f0;
-  background-color: #0e9ebc;
+  border-color: #ffffff;
+  background-color: #ffffff;
 }
 @keyframes dot {
   0% {
@@ -141,40 +152,41 @@
   animation: dot 2.5s ease-in-out infinite alternate;
 }
 
-@media (max-width: 1123px){
-  .home .upper h2{
+@media (max-width: 1123px) {
+  .home .upper h2 {
     font-size: 50px;
   }
-  .home .lowerContent{
+  .home .lowerContent {
     gap: 50px;
   }
-  .home .lowerContent h3 a{
+  .home .lowerContent h3 a {
     float: left;
   }
 }
-@media (max-width: 532px){
-  .triangleHome1 , .triangleHome2 , .triangleHome3{
+@media (max-width: 532px) {
+  .triangleHome1,
+  .triangleHome2,
+  .triangleHome3 {
     display: none;
   }
-  .home .upper h2{
+  .home .upper h2 {
     margin-left: 50px;
     font-size: 38px;
   }
 }
-@media (max-width: 360px){
-
-  .home .upper h2{
+@media (max-width: 360px) {
+  .home .upper h2 {
     margin-left: 20px;
     font-size: 38px;
   }
-  .home .lowerContent{
+  .home .lowerContent {
     /* display: block; */
     padding-left: 10px;
     padding-bottom: 20px;
     margin: 0px;
   }
-  .home .lowerContent  a{
-    padding-bottom: 30px;  
+  .home .lowerContent a {
+    padding-bottom: 30px;
   }
   .home .lowerContent h3 a {
     margin-left: 0;

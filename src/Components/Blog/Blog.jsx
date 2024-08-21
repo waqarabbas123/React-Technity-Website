@@ -1,12 +1,13 @@
 // import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Link } from "react-router-dom";
 import images from "/serviceimage4.jpg";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { FaArrowRight } from "react-icons/fa"; //----icon
-import sajid from "/TeamImages/sajid.jpeg"
+import sajid from "/TeamImages/sajid.jpeg";
 import mali from "/TeamImages/m-ali.jpeg";
 import mehdi from "/TeamImages/mehdi.jpg";
 import abbas from "/TeamImages/abbas.jpeg";
@@ -14,11 +15,11 @@ import waqar from "/TeamImages/waqar.jpeg";
 import israr from "/TeamImages/israr.jpg";
 import junaid from "/TeamImages/junaid.jpeg";
 //------------last images-------
-import partner1 from "/partner_1.svg";
-import partner2 from "/partner_2.svg";
-import partner3 from "/partner_3.svg";
-import partner4 from "/partner_4.svg";
-import partner5 from "/partner_5.svg";
+import partner1 from "/client.png";
+import partner2 from "/client1.png";
+import partner3 from "/client2.png";
+import partner4 from "/client3.webp";
+import partner5 from "/client4.png";
 
 import "./Blog.css";
 function Blog() {
@@ -30,12 +31,12 @@ function Blog() {
           <h2>
             Welcome to our <br /> Team
           </h2>
-          <a href="#">
-            View More 
+          <Link to="/Mainteam">
+            View More
             <span>
               <FaArrowRight />
             </span>
-          </a>
+          </Link>
         </div>
         <div className="slider">
           <Swiper
@@ -87,25 +88,16 @@ function Blog() {
         <div className="small-circle"></div>
         <div className="large-circle"></div>
 
-        {/* ------slider text------------ */}
-        <div className="animate-text">
-          <div className="marquee">
-            <div className="text-container">
-              <span className="text-back">
-                Our software agency specializes in innovative solutions,
-                delivering custom applications , Websites that drive Designing
-                growth and enhance user experiences
-              </span>
-              <span className="text-front">
-                Our software agency specializes in innovative solutions,
-                delivering custom applications , Websites that drive Designing
-                growth and enhance user experiences
-              </span>
-            </div>
-          </div>
+        <div className="w-[100%] ">
+          <h4 className="text-xl text-teal-400 font-sans font-semibold text-center">
+            Our Clients
+          </h4>
+          <h2 className="text-[43px] text-zinc-200 text-center font-normal font-serif pt-3 pb-5">
+            Our Satisfied Clients
+          </h2>
         </div>
         {/* -----------images--------- */}
-        <div className="images-container pt-14">
+        <div className="images-container">
           <div className="boxes">
             <img src={partner1} alt="" />
           </div>

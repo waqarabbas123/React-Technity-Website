@@ -1,7 +1,7 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
 // ----icons---
-import { FaLongArrowAltRight } from "react-icons/fa";
+// import { FaLongArrowAltRight } from "react-icons/fa";
 function Home() {
   return (
     <div className="home ">
@@ -20,9 +20,6 @@ function Home() {
         <h3>
           <Link to="/MainContact">
             Get a Quote
-            <span>
-              <FaLongArrowAltRight />
-            </span>
           </Link>
         </h3>
         <p>

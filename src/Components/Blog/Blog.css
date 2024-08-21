@@ -53,9 +53,9 @@ body {
 }
 .blog-content h2 {
   padding: 20px 0px;
-  font-size: 47px;
+  font-size: 43px;
   color: #cfcfcf;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 50px;
 }
 .blog-content a {
@@ -160,7 +160,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-bottom: 30px;
+  padding-bottom: 80px; 
+  padding-top: 80px;
+  background-color: #6b6b6b9c;
 }
 .images-container img {
   width: 130px;

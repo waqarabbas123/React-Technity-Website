@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./Award.css";
 function Award() {
   return (
@@ -7,7 +7,7 @@ function Award() {
         <div className="awardContent">
           <p>Our Award</p>
           <h2>
-            We get multiple <br /> awards
+            We Get Multiple <br /> Awards
           </h2>
         </div>
         <div className="boxContent">

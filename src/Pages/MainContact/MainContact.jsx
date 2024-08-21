@@ -51,7 +51,7 @@ function MainContact() {
                 <span>
                   <BsFillTelephonePlusFill />
                 </span>
-                +923 ************
+                +923 113657733
               </p>
               <p>
                 <span>

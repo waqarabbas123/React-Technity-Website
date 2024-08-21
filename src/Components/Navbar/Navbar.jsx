@@ -69,20 +69,19 @@ function Navbar() {
               <a
                 onMouseEnter={() => setportfoliohover(true)}
                 onMouseLeave={() => setportfoliohover(false)}
-                href="#"
               >
-                Portfoio <FaAngleDown />
+                Portfolio <FaAngleDown />
               </a>
             </li>
 
             <li>
-              <a
-                onMouseEnter={() => setbloghover(true)}
-                onMouseLeave={() => setbloghover(false)}
-                href="#"
+              <Link
+                // onMouseEnter={() => setbloghover(true)}
+                // onMouseLeave={() => setbloghover(false)}
+                to="/"
               >
-                Blog <FaAngleDown />
-              </a>
+                Blog 
+              </Link>
             </li>
 
             <li>
@@ -164,18 +163,6 @@ function Navbar() {
             onMouseLeave={() => setbloghover(false)}
             className="popBlog"
           >
-            <ul>
-              <li>
-                <a href="#">
-                  <IoMdArrowDropright /> Blog
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <IoMdArrowDropright /> blog details
-                </a>
-              </li>
-            </ul>
           </div>
         )}
         {/* -------------page------- */}
@@ -201,11 +188,11 @@ function Navbar() {
                   <IoMdArrowDropright /> team details
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">
                   <IoMdArrowDropright /> our History
                 </a>
-              </li>
+              </li> */}
               <li>
                 <Link to="/OurMission">
                   <IoMdArrowDropright /> our mission

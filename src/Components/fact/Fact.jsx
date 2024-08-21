@@ -13,7 +13,7 @@ function Fact() {
           </div>
           <div className="second">
             <div className="box1">
-              <h2>80</h2>
+              <h2>100</h2>
               <p>
                 <span>+</span> Unique & Creative Projects
               </p>
@@ -31,7 +31,7 @@ function Fact() {
               </p>
             </div>
             <div className="box1" id="lastbox">
-              <h2>64</h2>
+              <h2>250</h2>
               <p>
                 <span>+</span> Satisfied Clients
               </p>

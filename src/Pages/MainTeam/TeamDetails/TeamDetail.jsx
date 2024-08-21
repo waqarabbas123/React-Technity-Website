@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./TeamDetail.css";
 import { FaPlay } from "react-icons/fa6";
 import { IoCloseCircleOutline } from "react-icons/io5";
@@ -18,14 +18,14 @@ function TeamDetail() {
           <span className="fristchild">Home </span> | <span>Our team</span>
         </p>
       </div>
-      
+
       <div className="vediomain pt-20">
         {showFirstDiv ? (
           <div className="vediobox" id="PlayVedio">
             <div id="Playbtn" onClick={toggleDivs}>
               <FaPlay />
             </div>
-            <h2 className="text-orange-700 pt-3 text-4xl  text-center">
+            <h2 className="text-teal-400 pt-3 text-4xl  text-center">
               WE ARE A TEAM OF <br />
               TALENTED DEVELOPERS & DESIGNERS
             </h2>
@@ -37,7 +37,7 @@ function TeamDetail() {
             onClick={toggleDivs}
           >
             <ReactPlayer
-              url="https://youtu.be/kSTsH8br5ww?si=6BwuwSWyy2ofiGZC"
+              url="https://youtu.be/8-Gg3AO4F1c?si=8f0YtEJL4JQv4sUm"
               width="80%"
               height="80vh"
               controls

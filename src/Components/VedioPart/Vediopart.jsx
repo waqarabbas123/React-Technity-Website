@@ -13,12 +13,12 @@ function Vediopart() {
   return (
     <>
       <div className="vediomain">
-        <p className="vediotext text-zinc-200 text-center text-[40px] font-semibold px-20 pt-16 pb-12" >
+        <p className="vediotext text-zinc-200 text-center text-[30px] font-normal px-20 pt-16 pb-12">
           Our agile process is ability to adapt and respond to change. Agile
           organizations view change as an opportunity, not a threat.
         </p>
         {showFirstDiv ? (
-          <div className="vediobox" id="PlayVedio" >
+          <div className="vediobox" id="PlayVedio">
             <div id="Playbtn" onClick={toggleDivs}>
               <FaPlay />
             </div>
@@ -26,7 +26,7 @@ function Vediopart() {
         ) : (
           <div className="vedio" id="vedioSection" onClick={toggleDivs}>
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=TJHssCW50JQ"
+              url="https://youtu.be/sLoquVHn5ic?si=UYVUGheHsa5ebyIe"
               width="100%"
               height="100vh"
               controls

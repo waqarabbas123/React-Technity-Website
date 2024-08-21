@@ -109,7 +109,7 @@ function MainTeam() {
             ___
           </span>
           {/* -------------------------------------- */}
-          <div className="team-second-part2">
+          <div className="team-second-part2 ">
             <Team
               teamMemberName="Muhammad Ali"
               Field="Head of vedio Editors"
